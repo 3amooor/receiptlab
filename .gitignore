@@ -3,6 +3,7 @@ scripts/integrate_frontend.py
 *.tsbuildinfo
 reports/initial-ui.png
 reports/browser-initial.yml
+reports/published-demo.yml
 .test-tmp/
 .playwright-cli/
 .playwright/

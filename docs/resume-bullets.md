@@ -1,6 +1,6 @@
 # Resume entry
 
-**ReceiptLab — Multimodal Document AI & Human Review Platform**  
+**ReceiptLab — Multimodal Document AI & Human Review Platform**
 Python · PyTorch · Hugging Face Transformers · scikit-learn · ONNX · FastAPI · React/TypeScript · SQLite · Docker · GitHub Actions
 
 - Fine-tuned LayoutLMv3 on 800 CORD receipt documents; selected the checkpoint on 100 validation documents and achieved **0.957 macro F1 / 97.9% micro F1** on 100 held-out documents using supplied text, layout, and image inputs.
