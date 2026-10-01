@@ -5,6 +5,7 @@ import json
 import os
 import time
 from pathlib import Path
+from uuid import uuid4
 
 from fastapi.testclient import TestClient
 
@@ -19,8 +20,16 @@ def main():
     args = parser.parse_args()
     os.environ["RECEIPTLAB_MODEL_BACKEND"] = args.backend
     results = []
-    app = create_app(ROOT / "data" / ("smoke-" + args.backend), ROOT / "models")
+    workspace = ROOT / "data" / ("smoke-" + args.backend + "-" + uuid4().hex)
+    app = create_app(workspace, ROOT / "models")
     with TestClient(app) as client:
+        deadline = time.monotonic() + 120
+        while time.monotonic() < deadline:
+            if client.get("/api/health").json()["model_ready"]:
+                break
+            time.sleep(0.1)
+        else:
+            raise RuntimeError("Model did not become ready for fresh inference")
         for name in ("sample-a", "sample-b", "sample-c"):
             source = ROOT / "frontend/public/samples" / (name + ".png")
             response = client.post(
