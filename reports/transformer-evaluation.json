@@ -1,0 +1,208 @@
+{
+  "model": "layoutlmv3-receiptlab-v1",
+  "base_model": "microsoft/layoutlmv3-base",
+  "base_revision": "cfbbbff0762e6aab37086fdd4739ad14fe7d5db4",
+  "license": "CC-BY-NC-SA-4.0",
+  "evaluation_mode": "CORD supplied text and bounding boxes plus receipt image",
+  "training_documents": 800,
+  "validation_documents": 100,
+  "test_documents": 100,
+  "label_count": 9,
+  "seed": 42,
+  "epochs": 3,
+  "selected_by": "validation macro F1",
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.37372747069515755,
+      "validation_macro_f1": 0.9599259542979771
+    },
+    {
+      "epoch": 2,
+      "loss": 0.11185257923265453,
+      "validation_macro_f1": 0.9930785728257336
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0784760135912802,
+      "validation_macro_f1": 0.9766025603883564
+    }
+  ],
+  "validation": {
+    "micro_f1": 0.9942575881870386,
+    "macro_f1": 0.9930785728257336,
+    "per_class": {
+      "discount": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "item_amount": {
+        "precision": 0.9956896551724138,
+        "recall": 0.9871794871794872,
+        "f1-score": 0.9914163090128756,
+        "support": 234.0
+      },
+      "item_description": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 271.0
+      },
+      "item_quantity": {
+        "precision": 0.9918032786885246,
+        "recall": 1.0,
+        "f1-score": 0.9958847736625515,
+        "support": 242.0
+      },
+      "item_unit_price": {
+        "precision": 0.9607843137254902,
+        "recall": 0.98,
+        "f1-score": 0.9702970297029703,
+        "support": 50.0
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 0.9852941176470589,
+        "f1-score": 0.9925925925925926,
+        "support": 204.0
+      },
+      "subtotal": {
+        "precision": 0.9852941176470589,
+        "recall": 1.0,
+        "f1-score": 0.9925925925925926,
+        "support": 67.0
+      },
+      "tax": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 47.0
+      },
+      "total": {
+        "precision": 0.98989898989899,
+        "recall": 1.0,
+        "f1-score": 0.9949238578680203,
+        "support": 98.0
+      },
+      "accuracy": 0.9942575881870386,
+      "macro avg": {
+        "precision": 0.9914967061258309,
+        "recall": 0.9947192894251717,
+        "f1-score": 0.9930785728257336,
+        "support": 1219.0
+      },
+      "weighted avg": {
+        "precision": 0.9943164850957311,
+        "recall": 0.9942575881870386,
+        "f1-score": 0.9942621113077585,
+        "support": 1219.0
+      }
+    },
+    "documents": 100,
+    "lines": 1219,
+    "latency_ms_p50": 60.14444999891566,
+    "latency_ms_p95": 130.7616549958766,
+    "unrepresented_lines": 0
+  },
+  "review_policy": {
+    "threshold": 0.52,
+    "validation_precision": 0.9950738916256158,
+    "validation_coverage": 0.9991796554552912
+  },
+  "test": {
+    "micro_f1": 0.9786096256684492,
+    "macro_f1": 0.9565513348353039,
+    "per_class": {
+      "discount": {
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.8333333333333334,
+        "support": 7.0
+      },
+      "item_amount": {
+        "precision": 0.9962962962962963,
+        "recall": 0.9889705882352942,
+        "f1-score": 0.992619926199262,
+        "support": 272.0
+      },
+      "item_description": {
+        "precision": 0.9695945945945946,
+        "recall": 1.0,
+        "f1-score": 0.9845626072041166,
+        "support": 287.0
+      },
+      "item_quantity": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 237.0
+      },
+      "item_unit_price": {
+        "precision": 0.9436619718309859,
+        "recall": 1.0,
+        "f1-score": 0.9710144927536232,
+        "support": 67.0
+      },
+      "other": {
+        "precision": 0.9820627802690582,
+        "recall": 0.9439655172413793,
+        "f1-score": 0.9626373626373627,
+        "support": 232.0
+      },
+      "subtotal": {
+        "precision": 0.88,
+        "recall": 1.0,
+        "f1-score": 0.9361702127659575,
+        "support": 66.0
+      },
+      "tax": {
+        "precision": 1.0,
+        "recall": 0.9555555555555556,
+        "f1-score": 0.9772727272727273,
+        "support": 45.0
+      },
+      "total": {
+        "precision": 0.9887640449438202,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9513513513513514,
+        "support": 96.0
+      },
+      "accuracy": 0.9786096256684492,
+      "macro avg": {
+        "precision": 0.9733755208816396,
+        "recall": 0.9466048935538455,
+        "f1-score": 0.9565513348353039,
+        "support": 1309.0
+      },
+      "weighted avg": {
+        "precision": 0.9796268194736024,
+        "recall": 0.9786096256684492,
+        "f1-score": 0.9785175685049889,
+        "support": 1309.0
+      }
+    },
+    "documents": 100,
+    "lines": 1309,
+    "latency_ms_p50": 60.33079999178881,
+    "latency_ms_p95": 144.3659150012536,
+    "unrepresented_lines": 0,
+    "accepted_line_precision": 0.9800918836140888,
+    "accepted_line_coverage": 0.9977081741787625
+  },
+  "duration_seconds": 425.7849348000018,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "peak_gpu_memory_mb": 3288.27978515625,
+  "split_hashes": {
+    "train": "f552111cc4cafe200b09b48bd15f75b33f147fa6905baac540b83853cce39bfc",
+    "validation": "6498862b2204a0c04079882ef1dfd5dbf0bb3f87eaa39453f76f94ff7e0fc69d",
+    "test": "20d30d223efaf4380089b1aa73e3aa100589ac9e0614dd5ff5c964f8ae521d44"
+  },
+  "limitations": [
+    "Line-level classification, not full-document exact-match accuracy",
+    "Not an end-to-end OCR metric",
+    "Indonesian receipt benchmark, not arbitrary English or Arabic invoices"
+  ]
+}

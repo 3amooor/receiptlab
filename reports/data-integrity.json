@@ -1,0 +1,12 @@
+{
+  "official_document_counts": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "exact_image_hash_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  }
+}

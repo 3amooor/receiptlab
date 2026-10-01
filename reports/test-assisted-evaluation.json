@@ -1,0 +1,224 @@
+{
+  "dataset": "naver-clova-ix/cord-v2",
+  "split": "test",
+  "documents": 20,
+  "seed": 42,
+  "model_version": "cord-line-v1",
+  "assist_source_sha256": "a083cd97804c0ecb53e28447bee5524275ae6c6ae31d1616a0a83513399e7806",
+  "input": "Actual pixels -> RapidOCR -> frozen learned classifier -> explicit text anchors",
+  "parameters_selected_on_test": false,
+  "development_note": "Assisted design followed raw benchmark failure analysis; geometric rules were fixed before separate validation and additional test evaluation. No test values were used to tune parameters.",
+  "raw_learned_fields": {
+    "subtotal": {
+      "present_documents": 12,
+      "correct_present": 0,
+      "present_value_accuracy": 0.0,
+      "presence_and_value_accuracy": 0.4,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "tax": {
+      "present_documents": 8,
+      "correct_present": 0,
+      "present_value_accuracy": 0.0,
+      "presence_and_value_accuracy": 0.6,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "discount": {
+      "present_documents": 2,
+      "correct_present": 0,
+      "present_value_accuracy": 0.0,
+      "presence_and_value_accuracy": 0.9,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "total": {
+      "present_documents": 18,
+      "correct_present": 1,
+      "present_value_accuracy": 0.05555555555555555,
+      "presence_and_value_accuracy": 0.15,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    }
+  },
+  "assisted_fields": {
+    "subtotal": {
+      "present_documents": 12,
+      "correct_present": 7,
+      "present_value_accuracy": 0.5833333333333334,
+      "presence_and_value_accuracy": 0.75,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "tax": {
+      "present_documents": 8,
+      "correct_present": 1,
+      "present_value_accuracy": 0.125,
+      "presence_and_value_accuracy": 0.65,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "discount": {
+      "present_documents": 2,
+      "correct_present": 0,
+      "present_value_accuracy": 0.0,
+      "presence_and_value_accuracy": 0.9,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "total": {
+      "present_documents": 18,
+      "correct_present": 10,
+      "present_value_accuracy": 0.5555555555555556,
+      "presence_and_value_accuracy": 0.6,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    }
+  },
+  "documents_requiring_review": 20,
+  "latency_ms": {
+    "median": 596.8730499953381,
+    "p95": 1563.7139150087028
+  },
+  "detail": [
+    {
+      "id": "test-0000",
+      "anchor_fields": {
+        "subtotal": "60000.00",
+        "tax": "5455.00"
+      },
+      "filtered_items": 6
+    },
+    {
+      "id": "test-0004",
+      "anchor_fields": {
+        "total": "174600.00"
+      },
+      "filtered_items": 10
+    },
+    {
+      "id": "test-0010",
+      "anchor_fields": {
+        "subtotal": "17000.00",
+        "total": "17000.00"
+      },
+      "filtered_items": 4
+    },
+    {
+      "id": "test-0012",
+      "anchor_fields": {},
+      "filtered_items": 0
+    },
+    {
+      "id": "test-0018",
+      "anchor_fields": {},
+      "filtered_items": 4
+    },
+    {
+      "id": "test-0022",
+      "anchor_fields": {
+        "total": "40000.00"
+      },
+      "filtered_items": 3
+    },
+    {
+      "id": "test-0030",
+      "anchor_fields": {
+        "subtotal": "28636.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "test-0031",
+      "anchor_fields": {
+        "total": "113886.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "test-0033",
+      "anchor_fields": {
+        "total": "148127.00"
+      },
+      "filtered_items": 0
+    },
+    {
+      "id": "test-0039",
+      "anchor_fields": {},
+      "filtered_items": 0
+    },
+    {
+      "id": "test-0044",
+      "anchor_fields": {
+        "total": "30000.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "test-0045",
+      "anchor_fields": {
+        "total": "88000.00"
+      },
+      "filtered_items": 4
+    },
+    {
+      "id": "test-0053",
+      "anchor_fields": {
+        "subtotal": "107000.00"
+      },
+      "filtered_items": 4
+    },
+    {
+      "id": "test-0070",
+      "anchor_fields": {
+        "subtotal": null,
+        "tax": null
+      },
+      "filtered_items": 8
+    },
+    {
+      "id": "test-0073",
+      "anchor_fields": {},
+      "filtered_items": 3
+    },
+    {
+      "id": "test-0076",
+      "anchor_fields": {},
+      "filtered_items": 6
+    },
+    {
+      "id": "test-0077",
+      "anchor_fields": {
+        "subtotal": "17000.00",
+        "total": "17000.00"
+      },
+      "filtered_items": 3
+    },
+    {
+      "id": "test-0080",
+      "anchor_fields": {},
+      "filtered_items": 4
+    },
+    {
+      "id": "test-0083",
+      "anchor_fields": {
+        "subtotal": "20909.00"
+      },
+      "filtered_items": 1
+    },
+    {
+      "id": "test-0090",
+      "anchor_fields": {
+        "subtotal": "26818.00",
+        "total": "29500.00"
+      },
+      "filtered_items": 3
+    }
+  ],
+  "limitations": [
+    "Text recovery is deterministic assistance, not trained model accuracy.",
+    "Anchor confidence is zero and every document requires human review.",
+    "This additional operational evaluation does not replace the original model benchmark."
+  ]
+}

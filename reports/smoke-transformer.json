@@ -1,0 +1,43 @@
+{
+  "backend": "transformer",
+  "samples": [
+    {
+      "sample": "sample-a",
+      "fields": {
+        "subtotal": null,
+        "tax": "0.92",
+        "discount": null,
+        "total": "12.42"
+      },
+      "items": 3,
+      "model_version": "layoutlmv3-receiptlab-v1",
+      "requires_review": true
+    },
+    {
+      "sample": "sample-b",
+      "fields": {
+        "subtotal": null,
+        "tax": "1.84",
+        "discount": null,
+        "total": "24.84"
+      },
+      "items": 4,
+      "model_version": "layoutlmv3-receiptlab-v1",
+      "requires_review": true
+    },
+    {
+      "sample": "sample-c",
+      "fields": {
+        "subtotal": null,
+        "tax": "1.82",
+        "discount": null,
+        "total": "24.57"
+      },
+      "items": 3,
+      "model_version": "layoutlmv3-receiptlab-v1",
+      "requires_review": true
+    }
+  ],
+  "input": "Original synthetic images; real OCR and frozen model; actual API worker",
+  "checks": "Upload, durable inference, source image, needs-review state, CSV export, model readiness"
+}

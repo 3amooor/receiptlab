@@ -1,0 +1,7 @@
+-r requirements.txt
+datasets==5.0.1
+mlflow-skinny==3.16.1
+# For the optional GPU experiment, install torch using the command in docs/training.md
+# before installing this transformer dependency.
+transformers==4.57.6
+accelerate>=1,<2

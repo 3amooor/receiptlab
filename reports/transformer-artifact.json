@@ -1,0 +1,20 @@
+{
+  "asset": "receiptlab-layoutlmv3-v1.zip",
+  "sha256": "ed70831a9324a5bdc5ea2a509bcb07b20fc9968466cac4d0f915612f94e6fffa",
+  "bytes": 468357969,
+  "license": "CC-BY-NC-SA-4.0",
+  "base_model": "microsoft/layoutlmv3-base",
+  "release": "v1.0.0",
+  "files": {
+    "config.json": "8a897743ae40764c253a890147bbc2e634a152b807853b604a7d009518721c62",
+    "merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "model.safetensors": "1e0917802d8b02169806e882b8be4d5e12734cc7fb81520020e95d2e84390796",
+    "preprocessor_config.json": "fb91394b15d85259ab99041b46c622ee29045568e3fc0e2a7e14d6c7a925bc68",
+    "README.md": "c1ed97fa37ce31812f507fc76c81585bcd698b6a5daa3d3ffb5a1eebaea7f7b7",
+    "receiptlab-manifest.json": "9f8b71a87497b75989d295d18add6d4020fabe6c805199e29955f6ffda3467a1",
+    "special_tokens_map.json": "75cbec71553267dadc77a583ef15122c2aa7422eb6635acc72a184a413f17c1c",
+    "tokenizer.json": "42d111bece82d26509254d8e11c156d8bfa06fdf8876183f64a4fde1956a853f",
+    "tokenizer_config.json": "341453feb0712e6a0b84d3cfc159bbc2c97e42e929f81613cbc8c02b1c7a1b95",
+    "vocab.json": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e"
+  }
+}

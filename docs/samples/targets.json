@@ -1,0 +1,75 @@
+{
+  "sample-a": {
+    "merchant": "PAPER & BEAN",
+    "fields": {
+      "subtotal": "11.50",
+      "tax": "0.92",
+      "discount": null,
+      "total": "12.42"
+    },
+    "items": [
+      {
+        "description": "OAT LATTE",
+        "amount": "4.50"
+      },
+      {
+        "description": "BUTTER CROISSANT",
+        "amount": "3.80"
+      },
+      {
+        "description": "FILTER COFFEE",
+        "amount": "3.20"
+      }
+    ]
+  },
+  "sample-b": {
+    "merchant": "THE GREEN MARKET",
+    "fields": {
+      "subtotal": "23.00",
+      "tax": "1.84",
+      "discount": null,
+      "total": "24.84"
+    },
+    "items": [
+      {
+        "description": "SOURDOUGH LOAF",
+        "amount": "5.20"
+      },
+      {
+        "description": "OLIVE OIL",
+        "amount": "9.90"
+      },
+      {
+        "description": "SEASONAL APPLES",
+        "amount": "4.40"
+      },
+      {
+        "description": "OAT MILK",
+        "amount": "3.50"
+      }
+    ]
+  },
+  "sample-c": {
+    "merchant": "STUDIO SUPPLY",
+    "fields": {
+      "subtotal": "22.75",
+      "tax": "1.82",
+      "discount": null,
+      "total": "24.57"
+    },
+    "items": [
+      {
+        "description": "SKETCHBOOK",
+        "amount": "12.00"
+      },
+      {
+        "description": "GRAPHITE PENCILS",
+        "amount": "6.50"
+      },
+      {
+        "description": "PAPER TAPE",
+        "amount": "4.25"
+      }
+    ]
+  }
+}

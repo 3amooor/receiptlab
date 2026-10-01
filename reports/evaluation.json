@@ -1,0 +1,450 @@
+{
+  "dataset": "naver-clova-ix/cord-v2",
+  "split": "official test",
+  "test_documents": 100,
+  "model_version": "cord-line-v1",
+  "confidence_threshold": 0.3,
+  "test_used_for_parameter_selection": false,
+  "test_split_sha256": "20d30d223efaf4380089b1aa73e3aa100589ac9e0614dd5ff5c964f8ae521d44",
+  "label_support": {
+    "item_description": 287,
+    "other": 232,
+    "item_amount": 272,
+    "item_quantity": 237,
+    "discount": 7,
+    "tax": 45,
+    "subtotal": 66,
+    "total": 96,
+    "item_unit_price": 67
+  },
+  "baseline": {
+    "accuracy": 0.7219251336898396,
+    "macro_f1": 0.6239201414444898,
+    "target_macro_f1": 0.6320343827275355,
+    "weighted_f1": 0.7075840679522377,
+    "per_class": {
+      "other": {
+        "precision": 0.4368932038834951,
+        "recall": 0.7758620689655172,
+        "f1-score": 0.5590062111801242,
+        "support": 232.0
+      },
+      "item_description": {
+        "precision": 0.9879032258064516,
+        "recall": 0.8536585365853658,
+        "f1-score": 0.9158878504672897,
+        "support": 287.0
+      },
+      "item_quantity": {
+        "precision": 1.0,
+        "recall": 0.42616033755274263,
+        "f1-score": 0.5976331360946746,
+        "support": 237.0
+      },
+      "item_unit_price": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 67.0
+      },
+      "item_amount": {
+        "precision": 0.7945619335347432,
+        "recall": 0.9669117647058824,
+        "f1-score": 0.8723051409618574,
+        "support": 272.0
+      },
+      "subtotal": {
+        "precision": 0.9215686274509803,
+        "recall": 0.7121212121212122,
+        "f1-score": 0.8034188034188035,
+        "support": 66.0
+      },
+      "tax": {
+        "precision": 0.8333333333333334,
+        "recall": 0.4444444444444444,
+        "f1-score": 0.5797101449275363,
+        "support": 45.0
+      },
+      "discount": {
+        "precision": 0.3684210526315789,
+        "recall": 1.0,
+        "f1-score": 0.5384615384615384,
+        "support": 7.0
+      },
+      "total": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8541666666666666,
+        "f1-score": 0.7488584474885844,
+        "support": 96.0
+      },
+      "accuracy": 0.7219251336898396,
+      "macro avg": {
+        "precision": 0.6677053381452499,
+        "recall": 0.6703694478935368,
+        "f1-score": 0.6239201414444898,
+        "support": 1309.0
+      },
+      "weighted avg": {
+        "precision": 0.7661656010764388,
+        "recall": 0.7219251336898396,
+        "f1-score": 0.7075840679522377,
+        "support": 1309.0
+      }
+    },
+    "lines": 1309,
+    "documents": 100,
+    "input": "CORD annotated text and boxes; excludes OCR errors",
+    "fields": {
+      "subtotal": {
+        "present_documents": 65,
+        "correct_present": 47,
+        "present_value_accuracy": 0.7230769230769231,
+        "presence_and_value_accuracy": 0.81,
+        "evaluated_documents": 100,
+        "ambiguous_truth_documents_excluded": 0
+      },
+      "tax": {
+        "present_documents": 40,
+        "correct_present": 17,
+        "present_value_accuracy": 0.425,
+        "presence_and_value_accuracy": 0.7676767676767676,
+        "evaluated_documents": 99,
+        "ambiguous_truth_documents_excluded": 1
+      },
+      "discount": {
+        "present_documents": 7,
+        "correct_present": 7,
+        "present_value_accuracy": 1.0,
+        "presence_and_value_accuracy": 0.96,
+        "evaluated_documents": 100,
+        "ambiguous_truth_documents_excluded": 0
+      },
+      "total": {
+        "present_documents": 95,
+        "correct_present": 70,
+        "present_value_accuracy": 0.7368421052631579,
+        "presence_and_value_accuracy": 0.73,
+        "evaluated_documents": 100,
+        "ambiguous_truth_documents_excluded": 0
+      }
+    },
+    "latency_ms": {
+      "median": 0.09169999975711107,
+      "p95": 0.3407949945540166
+    },
+    "documents_requiring_review": 100
+  },
+  "learned": {
+    "accuracy": 0.961038961038961,
+    "macro_f1": 0.9385047014202564,
+    "target_macro_f1": 0.940262233542233,
+    "weighted_f1": 0.9610676847100196,
+    "per_class": {
+      "other": {
+        "precision": 0.9541284403669725,
+        "recall": 0.896551724137931,
+        "f1-score": 0.9244444444444444,
+        "support": 232.0
+      },
+      "item_description": {
+        "precision": 0.9757785467128027,
+        "recall": 0.9825783972125436,
+        "f1-score": 0.9791666666666666,
+        "support": 287.0
+      },
+      "item_quantity": {
+        "precision": 0.975,
+        "recall": 0.9873417721518988,
+        "f1-score": 0.9811320754716981,
+        "support": 237.0
+      },
+      "item_unit_price": {
+        "precision": 0.8533333333333334,
+        "recall": 0.9552238805970149,
+        "f1-score": 0.9014084507042254,
+        "support": 67.0
+      },
+      "item_amount": {
+        "precision": 0.9813432835820896,
+        "recall": 0.9669117647058824,
+        "f1-score": 0.9740740740740741,
+        "support": 272.0
+      },
+      "subtotal": {
+        "precision": 0.9411764705882353,
+        "recall": 0.9696969696969697,
+        "f1-score": 0.9552238805970149,
+        "support": 66.0
+      },
+      "tax": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1-score": 0.967741935483871,
+        "support": 45.0
+      },
+      "discount": {
+        "precision": 0.75,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8,
+        "support": 7.0
+      },
+      "total": {
+        "precision": 0.968421052631579,
+        "recall": 0.9583333333333334,
+        "f1-score": 0.9633507853403142,
+        "support": 96.0
+      },
+      "accuracy": 0.961038961038961,
+      "macro avg": {
+        "precision": 0.9262979030238903,
+        "recall": 0.9526422998864924,
+        "f1-score": 0.9385047014202564,
+        "support": 1309.0
+      },
+      "weighted avg": {
+        "precision": 0.9618819829265309,
+        "recall": 0.961038961038961,
+        "f1-score": 0.9610676847100196,
+        "support": 1309.0
+      }
+    },
+    "lines": 1309,
+    "documents": 100,
+    "input": "CORD annotated text and boxes; excludes OCR errors",
+    "fields": {
+      "subtotal": {
+        "present_documents": 65,
+        "correct_present": 63,
+        "present_value_accuracy": 0.9692307692307692,
+        "presence_and_value_accuracy": 0.97,
+        "evaluated_documents": 100,
+        "ambiguous_truth_documents_excluded": 0
+      },
+      "tax": {
+        "present_documents": 40,
+        "correct_present": 40,
+        "present_value_accuracy": 1.0,
+        "presence_and_value_accuracy": 1.0,
+        "evaluated_documents": 99,
+        "ambiguous_truth_documents_excluded": 1
+      },
+      "discount": {
+        "present_documents": 7,
+        "correct_present": 6,
+        "present_value_accuracy": 0.8571428571428571,
+        "presence_and_value_accuracy": 0.98,
+        "evaluated_documents": 100,
+        "ambiguous_truth_documents_excluded": 0
+      },
+      "total": {
+        "present_documents": 95,
+        "correct_present": 91,
+        "present_value_accuracy": 0.9578947368421052,
+        "presence_and_value_accuracy": 0.95,
+        "evaluated_documents": 100,
+        "ambiguous_truth_documents_excluded": 0
+      }
+    },
+    "latency_ms": {
+      "median": 1.545599996461533,
+      "p95": 2.8137900029832963
+    },
+    "documents_requiring_review": 50
+  },
+  "actual_ocr_pipeline": {
+    "documents": 20,
+    "sampling": "Seed 42 without replacement from official test split; count fixed before evaluation",
+    "input": "Actual CORD receipt pixels -> RapidOCR ONNX -> frozen line classifier -> deterministic extraction",
+    "fields": {
+      "subtotal": {
+        "present_documents": 12,
+        "correct_present": 0,
+        "present_value_accuracy": 0.0,
+        "presence_and_value_accuracy": 0.4,
+        "evaluated_documents": 20,
+        "ambiguous_truth_documents_excluded": 0
+      },
+      "tax": {
+        "present_documents": 8,
+        "correct_present": 0,
+        "present_value_accuracy": 0.0,
+        "presence_and_value_accuracy": 0.6,
+        "evaluated_documents": 20,
+        "ambiguous_truth_documents_excluded": 0
+      },
+      "discount": {
+        "present_documents": 2,
+        "correct_present": 0,
+        "present_value_accuracy": 0.0,
+        "presence_and_value_accuracy": 0.9,
+        "evaluated_documents": 20,
+        "ambiguous_truth_documents_excluded": 0
+      },
+      "total": {
+        "present_documents": 18,
+        "correct_present": 1,
+        "present_value_accuracy": 0.05555555555555555,
+        "presence_and_value_accuracy": 0.15,
+        "evaluated_documents": 20,
+        "ambiguous_truth_documents_excluded": 0
+      }
+    },
+    "annotated_line_detection_recall_iou_025": 0.5813953488372093,
+    "annotated_line_exact_text_recall_iou_025": 0.313953488372093,
+    "annotation_matching_note": "Matches reference lines to highest-IoU OCR box; split/merged lines conservatively penalized. Unannotated text has no reference. This is not character error rate.",
+    "latency_ms": {
+      "median": 677.7296000000206,
+      "p95": 2024.088284994651
+    },
+    "documents_requiring_review": 20,
+    "failures": 0,
+    "documents_detail": [
+      {
+        "id": "test-0000",
+        "ocr_lines": 16,
+        "annotated_lines": 11,
+        "annotations_detected_iou_025": 10,
+        "annotations_exact_text_iou_025": 4
+      },
+      {
+        "id": "test-0004",
+        "ocr_lines": 23,
+        "annotated_lines": 14,
+        "annotations_detected_iou_025": 6,
+        "annotations_exact_text_iou_025": 5
+      },
+      {
+        "id": "test-0010",
+        "ocr_lines": 12,
+        "annotated_lines": 8,
+        "annotations_detected_iou_025": 3,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0012",
+        "ocr_lines": 13,
+        "annotated_lines": 16,
+        "annotations_detected_iou_025": 13,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0018",
+        "ocr_lines": 9,
+        "annotated_lines": 7,
+        "annotations_detected_iou_025": 4,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0022",
+        "ocr_lines": 10,
+        "annotated_lines": 9,
+        "annotations_detected_iou_025": 6,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0030",
+        "ocr_lines": 12,
+        "annotated_lines": 7,
+        "annotations_detected_iou_025": 3,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0031",
+        "ocr_lines": 14,
+        "annotated_lines": 11,
+        "annotations_detected_iou_025": 6,
+        "annotations_exact_text_iou_025": 4
+      },
+      {
+        "id": "test-0033",
+        "ocr_lines": 16,
+        "annotated_lines": 14,
+        "annotations_detected_iou_025": 9,
+        "annotations_exact_text_iou_025": 5
+      },
+      {
+        "id": "test-0039",
+        "ocr_lines": 0,
+        "annotated_lines": 24,
+        "annotations_detected_iou_025": 0,
+        "annotations_exact_text_iou_025": 0
+      },
+      {
+        "id": "test-0044",
+        "ocr_lines": 8,
+        "annotated_lines": 6,
+        "annotations_detected_iou_025": 3,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0045",
+        "ocr_lines": 14,
+        "annotated_lines": 15,
+        "annotations_detected_iou_025": 9,
+        "annotations_exact_text_iou_025": 8
+      },
+      {
+        "id": "test-0053",
+        "ocr_lines": 15,
+        "annotated_lines": 14,
+        "annotations_detected_iou_025": 8,
+        "annotations_exact_text_iou_025": 5
+      },
+      {
+        "id": "test-0070",
+        "ocr_lines": 36,
+        "annotated_lines": 43,
+        "annotations_detected_iou_025": 33,
+        "annotations_exact_text_iou_025": 20
+      },
+      {
+        "id": "test-0073",
+        "ocr_lines": 15,
+        "annotated_lines": 12,
+        "annotations_detected_iou_025": 7,
+        "annotations_exact_text_iou_025": 6
+      },
+      {
+        "id": "test-0076",
+        "ocr_lines": 13,
+        "annotated_lines": 12,
+        "annotations_detected_iou_025": 11,
+        "annotations_exact_text_iou_025": 7
+      },
+      {
+        "id": "test-0077",
+        "ocr_lines": 11,
+        "annotated_lines": 8,
+        "annotations_detected_iou_025": 5,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0080",
+        "ocr_lines": 10,
+        "annotated_lines": 9,
+        "annotations_detected_iou_025": 4,
+        "annotations_exact_text_iou_025": 2
+      },
+      {
+        "id": "test-0083",
+        "ocr_lines": 12,
+        "annotated_lines": 9,
+        "annotations_detected_iou_025": 2,
+        "annotations_exact_text_iou_025": 0
+      },
+      {
+        "id": "test-0090",
+        "ocr_lines": 14,
+        "annotated_lines": 9,
+        "annotations_detected_iou_025": 8,
+        "annotations_exact_text_iou_025": 1
+      }
+    ]
+  },
+  "limitations": [
+    "These are Indonesian receipt results, not invoice or Arabic accuracy.",
+    "Line label F1 and document financial extraction accuracy measure different tasks.",
+    "Actual OCR benchmark is a seeded subset, separate from all 100 annotated-text receipts.",
+    "Validation review threshold is not a correctness guarantee or permission to autoapprove expenses."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "model_version": "cord-line-v1",
+  "model_kind": "tfidf-logistic-line-classifier",
+  "artifact": "line-classifier.joblib",
+  "sha256": "e3b1eb744a6ca4322afa0e38d5fecfe81ff1a2c8bbbae1d4f8dcd574f33c7b9b",
+  "created_at": "2026-10-01T19:09:43.875732+00:00",
+  "training_documents": 800,
+  "validation_documents": 100,
+  "training_lines": 10987,
+  "label_counts": {
+    "item_amount": 2217,
+    "item_description": 2419,
+    "item_quantity": 2045,
+    "subtotal": 541,
+    "other": 1930,
+    "tax": 362,
+    "total": 784,
+    "discount": 68,
+    "item_unit_price": 621
+  },
+  "labels": [
+    "discount",
+    "item_amount",
+    "item_description",
+    "item_quantity",
+    "item_unit_price",
+    "other",
+    "subtotal",
+    "tax",
+    "total"
+  ],
+  "temperature": 0.6628574894126819,
+  "confidence_threshold": 0.3,
+  "calibration": "Validation-only scalar temperature minimizes multiclass negative log likelihood. Review threshold seeks 90% accuracy among non-other predictions, minimum 30 accepted lines.",
+  "training_input": "CORD annotated text + normalized boxes + adjacent line text, not raw OCR",
+  "test_used_for_training": false,
+  "python_version": "3.12.14",
+  "dataset": {
+    "dataset": "naver-clova-ix/cord-v2",
+    "revision": "7f0115a4b758a71d6473b8d085751692da2fef98",
+    "counts": {
+      "train": 800,
+      "validation": 100,
+      "test": 100
+    },
+    "fingerprints": {
+      "train": "2bbf0cee2d3f582a",
+      "validation": "7b505b6d87c315c4",
+      "test": "1203e8de0a129f13"
+    },
+    "labels": [
+      "other",
+      "item_description",
+      "item_quantity",
+      "item_unit_price",
+      "item_amount",
+      "subtotal",
+      "tax",
+      "discount",
+      "total"
+    ],
+    "category_map": {
+      "menu.nm": "item_description",
+      "menu.sub.nm": "item_description",
+      "menu.sub_nm": "item_description",
+      "menu.cnt": "item_quantity",
+      "menu.sub.cnt": "item_quantity",
+      "menu.sub_cnt": "item_quantity",
+      "menu.unitprice": "item_unit_price",
+      "menu.sub_unitprice": "item_unit_price",
+      "menu.price": "item_amount",
+      "menu.sub.price": "item_amount",
+      "menu.sub_price": "item_amount",
+      "menu.itemsubtotal": "item_amount",
+      "sub_total.subtotal_price": "subtotal",
+      "subtotal.subtotal_price": "subtotal",
+      "sub_total.tax_price": "tax",
+      "subtotal.tax_price": "tax",
+      "sub_total.discount_price": "discount",
+      "subtotal.discount_price": "discount",
+      "total.total_price": "total"
+    },
+    "note": "Official document splits; categories merged into nine receipt line roles."
+  },
+  "split_hashes": {
+    "train": "f552111cc4cafe200b09b48bd15f75b33f147fa6905baac540b83853cce39bfc",
+    "validation": "6498862b2204a0c04079882ef1dfd5dbf0bb3f87eaa39453f76f94ff7e0fc69d"
+  },
+  "limitations": [
+    "Indonesian receipts; no invoice or Arabic validation.",
+    "Line probabilities do not establish document-level correctness.",
+    "OCR errors are evaluated separately; annotated-text metrics exclude OCR errors.",
+    "Trusted local joblib artifact only; never load user-uploaded pickle files."
+  ],
+  "library_versions": {
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  }
+}

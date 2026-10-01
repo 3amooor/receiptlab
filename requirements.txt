@@ -1,0 +1,12 @@
+# Tested direct dependencies. See reports/environment.txt for the full training environment.
+fastapi==0.142.2
+uvicorn==0.54.0
+python-multipart==0.0.32
+scikit-learn==1.9.1
+pillow==12.3.0
+pypdfium2==5.13.0
+rapidocr-onnxruntime==1.4.4
+numpy==2.5.3
+joblib==1.6.0
+scipy==1.18.1
+onnxruntime==1.30.0

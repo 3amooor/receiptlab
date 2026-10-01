@@ -1,0 +1,516 @@
+{
+  "accuracy": 0.9794913863822805,
+  "macro_f1": 0.9673609195285291,
+  "target_macro_f1": 0.9667099621503932,
+  "weighted_f1": 0.9797332951203481,
+  "per_class": {
+    "other": {
+      "precision": 0.9898477157360406,
+      "recall": 0.9558823529411765,
+      "f1-score": 0.972568578553616,
+      "support": 204.0
+    },
+    "item_description": {
+      "precision": 0.9962825278810409,
+      "recall": 0.988929889298893,
+      "f1-score": 0.9925925925925926,
+      "support": 271.0
+    },
+    "item_quantity": {
+      "precision": 0.9795918367346939,
+      "recall": 0.9917355371900827,
+      "f1-score": 0.9856262833675564,
+      "support": 242.0
+    },
+    "item_unit_price": {
+      "precision": 0.8448275862068966,
+      "recall": 0.98,
+      "f1-score": 0.9074074074074074,
+      "support": 50.0
+    },
+    "item_amount": {
+      "precision": 0.9912280701754386,
+      "recall": 0.9658119658119658,
+      "f1-score": 0.9783549783549783,
+      "support": 234.0
+    },
+    "subtotal": {
+      "precision": 0.9571428571428572,
+      "recall": 1.0,
+      "f1-score": 0.9781021897810219,
+      "support": 67.0
+    },
+    "tax": {
+      "precision": 0.9787234042553191,
+      "recall": 0.9787234042553191,
+      "f1-score": 0.9787234042553191,
+      "support": 47.0
+    },
+    "discount": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1-score": 0.9230769230769231,
+      "support": 6.0
+    },
+    "total": {
+      "precision": 0.9897959183673469,
+      "recall": 0.9897959183673469,
+      "f1-score": 0.9897959183673469,
+      "support": 98.0
+    },
+    "accuracy": 0.9794913863822805,
+    "macro avg": {
+      "precision": 0.9538425304047213,
+      "recall": 0.9834310075405317,
+      "f1-score": 0.9673609195285291,
+      "support": 1219.0
+    },
+    "weighted avg": {
+      "precision": 0.9806750614097919,
+      "recall": 0.9794913863822805,
+      "f1-score": 0.9797332951203481,
+      "support": 1219.0
+    }
+  },
+  "lines": 1219,
+  "split": "validation",
+  "documents": 100,
+  "temperature": 0.6628574894126819,
+  "nll_before": 0.08944565346697593,
+  "nll_after": 0.0729934261430036,
+  "threshold_selection": {
+    "target_precision": 0.9,
+    "target_met": true,
+    "selection_scope": "validation non-other predicted lines",
+    "minimum_accepted_lines": 30,
+    "selected": {
+      "threshold": 0.3,
+      "accepted_lines": 1022,
+      "precision": 0.9774951076320939,
+      "coverage": 0.8383921246923708
+    },
+    "candidates": [
+      {
+        "threshold": 0.3,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.31,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.32,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.33,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.34,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.35,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.36,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.37,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.38,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.39,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.4,
+        "accepted_lines": 1022,
+        "precision": 0.9774951076320939,
+        "coverage": 0.8383921246923708
+      },
+      {
+        "threshold": 0.41,
+        "accepted_lines": 1021,
+        "precision": 0.9784524975514202,
+        "coverage": 0.837571780147662
+      },
+      {
+        "threshold": 0.42,
+        "accepted_lines": 1021,
+        "precision": 0.9784524975514202,
+        "coverage": 0.837571780147662
+      },
+      {
+        "threshold": 0.43,
+        "accepted_lines": 1020,
+        "precision": 0.9784313725490196,
+        "coverage": 0.8367514356029533
+      },
+      {
+        "threshold": 0.44,
+        "accepted_lines": 1020,
+        "precision": 0.9784313725490196,
+        "coverage": 0.8367514356029533
+      },
+      {
+        "threshold": 0.45,
+        "accepted_lines": 1020,
+        "precision": 0.9784313725490196,
+        "coverage": 0.8367514356029533
+      },
+      {
+        "threshold": 0.46,
+        "accepted_lines": 1019,
+        "precision": 0.9793915603532876,
+        "coverage": 0.8359310910582445
+      },
+      {
+        "threshold": 0.47,
+        "accepted_lines": 1019,
+        "precision": 0.9793915603532876,
+        "coverage": 0.8359310910582445
+      },
+      {
+        "threshold": 0.48,
+        "accepted_lines": 1019,
+        "precision": 0.9793915603532876,
+        "coverage": 0.8359310910582445
+      },
+      {
+        "threshold": 0.49,
+        "accepted_lines": 1019,
+        "precision": 0.9793915603532876,
+        "coverage": 0.8359310910582445
+      },
+      {
+        "threshold": 0.5,
+        "accepted_lines": 1018,
+        "precision": 0.9793713163064833,
+        "coverage": 0.8351107465135357
+      },
+      {
+        "threshold": 0.51,
+        "accepted_lines": 1018,
+        "precision": 0.9793713163064833,
+        "coverage": 0.8351107465135357
+      },
+      {
+        "threshold": 0.52,
+        "accepted_lines": 1018,
+        "precision": 0.9793713163064833,
+        "coverage": 0.8351107465135357
+      },
+      {
+        "threshold": 0.53,
+        "accepted_lines": 1016,
+        "precision": 0.9803149606299213,
+        "coverage": 0.8334700574241182
+      },
+      {
+        "threshold": 0.54,
+        "accepted_lines": 1016,
+        "precision": 0.9803149606299213,
+        "coverage": 0.8334700574241182
+      },
+      {
+        "threshold": 0.55,
+        "accepted_lines": 1015,
+        "precision": 0.9812807881773399,
+        "coverage": 0.8326497128794094
+      },
+      {
+        "threshold": 0.56,
+        "accepted_lines": 1015,
+        "precision": 0.9812807881773399,
+        "coverage": 0.8326497128794094
+      },
+      {
+        "threshold": 0.57,
+        "accepted_lines": 1013,
+        "precision": 0.9822309970384995,
+        "coverage": 0.8310090237899918
+      },
+      {
+        "threshold": 0.58,
+        "accepted_lines": 1011,
+        "precision": 0.9831849653808111,
+        "coverage": 0.8293683347005743
+      },
+      {
+        "threshold": 0.59,
+        "accepted_lines": 1010,
+        "precision": 0.9841584158415841,
+        "coverage": 0.8285479901558654
+      },
+      {
+        "threshold": 0.6,
+        "accepted_lines": 1010,
+        "precision": 0.9841584158415841,
+        "coverage": 0.8285479901558654
+      },
+      {
+        "threshold": 0.61,
+        "accepted_lines": 1010,
+        "precision": 0.9841584158415841,
+        "coverage": 0.8285479901558654
+      },
+      {
+        "threshold": 0.62,
+        "accepted_lines": 1009,
+        "precision": 0.9841427155599604,
+        "coverage": 0.8277276456111566
+      },
+      {
+        "threshold": 0.63,
+        "accepted_lines": 1009,
+        "precision": 0.9841427155599604,
+        "coverage": 0.8277276456111566
+      },
+      {
+        "threshold": 0.64,
+        "accepted_lines": 1008,
+        "precision": 0.9851190476190477,
+        "coverage": 0.8269073010664479
+      },
+      {
+        "threshold": 0.65,
+        "accepted_lines": 1008,
+        "precision": 0.9851190476190477,
+        "coverage": 0.8269073010664479
+      },
+      {
+        "threshold": 0.66,
+        "accepted_lines": 1006,
+        "precision": 0.9850894632206759,
+        "coverage": 0.8252666119770303
+      },
+      {
+        "threshold": 0.67,
+        "accepted_lines": 1006,
+        "precision": 0.9850894632206759,
+        "coverage": 0.8252666119770303
+      },
+      {
+        "threshold": 0.68,
+        "accepted_lines": 1004,
+        "precision": 0.9850597609561753,
+        "coverage": 0.8236259228876128
+      },
+      {
+        "threshold": 0.69,
+        "accepted_lines": 1001,
+        "precision": 0.987012987012987,
+        "coverage": 0.8211648892534865
+      },
+      {
+        "threshold": 0.7,
+        "accepted_lines": 1001,
+        "precision": 0.987012987012987,
+        "coverage": 0.8211648892534865
+      },
+      {
+        "threshold": 0.71,
+        "accepted_lines": 1000,
+        "precision": 0.987,
+        "coverage": 0.8203445447087777
+      },
+      {
+        "threshold": 0.72,
+        "accepted_lines": 1000,
+        "precision": 0.987,
+        "coverage": 0.8203445447087777
+      },
+      {
+        "threshold": 0.73,
+        "accepted_lines": 1000,
+        "precision": 0.987,
+        "coverage": 0.8203445447087777
+      },
+      {
+        "threshold": 0.74,
+        "accepted_lines": 999,
+        "precision": 0.986986986986987,
+        "coverage": 0.8195242001640689
+      },
+      {
+        "threshold": 0.75,
+        "accepted_lines": 998,
+        "precision": 0.9869739478957916,
+        "coverage": 0.8187038556193601
+      },
+      {
+        "threshold": 0.76,
+        "accepted_lines": 995,
+        "precision": 0.9869346733668342,
+        "coverage": 0.8162428219852338
+      },
+      {
+        "threshold": 0.77,
+        "accepted_lines": 994,
+        "precision": 0.9869215291750503,
+        "coverage": 0.815422477440525
+      },
+      {
+        "threshold": 0.78,
+        "accepted_lines": 992,
+        "precision": 0.9879032258064516,
+        "coverage": 0.8137817883511075
+      },
+      {
+        "threshold": 0.79,
+        "accepted_lines": 991,
+        "precision": 0.987891019172553,
+        "coverage": 0.8129614438063987
+      },
+      {
+        "threshold": 0.8,
+        "accepted_lines": 989,
+        "precision": 0.9888776541961577,
+        "coverage": 0.8113207547169812
+      },
+      {
+        "threshold": 0.81,
+        "accepted_lines": 989,
+        "precision": 0.9888776541961577,
+        "coverage": 0.8113207547169812
+      },
+      {
+        "threshold": 0.82,
+        "accepted_lines": 987,
+        "precision": 0.9908814589665653,
+        "coverage": 0.8096800656275636
+      },
+      {
+        "threshold": 0.83,
+        "accepted_lines": 981,
+        "precision": 0.9908256880733946,
+        "coverage": 0.8047579983593109
+      },
+      {
+        "threshold": 0.84,
+        "accepted_lines": 979,
+        "precision": 0.9918283963227783,
+        "coverage": 0.8031173092698933
+      },
+      {
+        "threshold": 0.85,
+        "accepted_lines": 978,
+        "precision": 0.9918200408997955,
+        "coverage": 0.8022969647251845
+      },
+      {
+        "threshold": 0.86,
+        "accepted_lines": 976,
+        "precision": 0.992827868852459,
+        "coverage": 0.800656275635767
+      },
+      {
+        "threshold": 0.87,
+        "accepted_lines": 974,
+        "precision": 0.9928131416837782,
+        "coverage": 0.7990155865463495
+      },
+      {
+        "threshold": 0.88,
+        "accepted_lines": 971,
+        "precision": 0.9927909371781668,
+        "coverage": 0.7965545529122231
+      },
+      {
+        "threshold": 0.89,
+        "accepted_lines": 967,
+        "precision": 0.9937952430196484,
+        "coverage": 0.793273174733388
+      },
+      {
+        "threshold": 0.9,
+        "accepted_lines": 964,
+        "precision": 0.9937759336099585,
+        "coverage": 0.7908121410992617
+      },
+      {
+        "threshold": 0.91,
+        "accepted_lines": 961,
+        "precision": 0.9937565036420395,
+        "coverage": 0.7883511074651354
+      },
+      {
+        "threshold": 0.92,
+        "accepted_lines": 954,
+        "precision": 0.9947589098532494,
+        "coverage": 0.782608695652174
+      },
+      {
+        "threshold": 0.93,
+        "accepted_lines": 948,
+        "precision": 0.9947257383966245,
+        "coverage": 0.7776866283839212
+      },
+      {
+        "threshold": 0.94,
+        "accepted_lines": 943,
+        "precision": 0.9946977730646872,
+        "coverage": 0.7735849056603774
+      },
+      {
+        "threshold": 0.95,
+        "accepted_lines": 936,
+        "precision": 0.9946581196581197,
+        "coverage": 0.7678424938474159
+      },
+      {
+        "threshold": 0.96,
+        "accepted_lines": 922,
+        "precision": 0.9967462039045553,
+        "coverage": 0.756357670221493
+      },
+      {
+        "threshold": 0.97,
+        "accepted_lines": 907,
+        "precision": 0.9966923925027563,
+        "coverage": 0.7440525020508614
+      },
+      {
+        "threshold": 0.98,
+        "accepted_lines": 879,
+        "precision": 0.9965870307167235,
+        "coverage": 0.7210828547990156
+      },
+      {
+        "threshold": 0.99,
+        "accepted_lines": 831,
+        "precision": 0.9963898916967509,
+        "coverage": 0.6817063166529943
+      }
+    ]
+  },
+  "training_seconds": 10.102249799994752
+}

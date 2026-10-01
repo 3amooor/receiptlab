@@ -1,0 +1,16 @@
+.git
+.venv
+data
+node_modules
+frontend/node_modules
+models/layoutlm*
+mlruns
+mlartifacts
+test-results
+playwright-report
+*.log
+.test-tmp
+.playwright-cli
+.playwright
+frontend/test-results
+scripts/integrate_frontend.py

@@ -1,0 +1,5161 @@
+{
+  "documents": [
+    {
+      "id": "2b3b8b54-8cbc-5748-b4fc-2cb212d87366",
+      "filename": "sample-a.png",
+      "source": "synthetic portfolio sample",
+      "width": 720,
+      "height": 1100,
+      "page_count": 1,
+      "revision": 2,
+      "status": "needs_review",
+      "created_at": "2026-10-01T12:00:00+00:00",
+      "image_url": "samples/sample-a.png",
+      "extraction": {
+        "fields": {
+          "subtotal": {
+            "value": "11.50",
+            "confidence": 0.0,
+            "bbox": [
+              0.8138888888888889,
+              0.6654545454545454,
+              0.9180555555555555,
+              0.6872727272727273
+            ],
+            "origin": "text_anchor"
+          },
+          "tax": {
+            "value": "0.92",
+            "confidence": 0.0,
+            "bbox": [
+              0.8319444444444445,
+              0.7090909090909091,
+              0.9194444444444444,
+              0.7336363636363636
+            ],
+            "origin": "text_anchor"
+          },
+          "discount": {
+            "value": null,
+            "confidence": 0.0,
+            "bbox": null,
+            "origin": "learned_model"
+          },
+          "total": {
+            "value": "12.42",
+            "confidence": 0.0,
+            "bbox": [
+              0.7916666666666666,
+              0.7672727272727272,
+              0.9166666666666666,
+              0.7918181818181819
+            ],
+            "origin": "text_anchor"
+          }
+        },
+        "items": [
+          {
+            "description": "OAT LATTE",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "4.50",
+            "confidence": 0.9641462432013618
+          },
+          {
+            "description": "BUTTERCROISSANT",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "3.80",
+            "confidence": 0.997584323088328
+          },
+          {
+            "description": "FILTER COFFEE",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "3.20",
+            "confidence": 0.9938528308501611
+          }
+        ],
+        "lines": [
+          {
+            "text": "PAPER & BEAN",
+            "bbox": [
+              0.3416666666666667,
+              0.07090909090909091,
+              0.6611111111111111,
+              0.09727272727272727
+            ],
+            "confidence": 0.9636485675970713,
+            "label": "item_description",
+            "model_confidence": 0.9998973756876568
+          },
+          {
+            "text": "SYNTHETIC PORTFOLIO SAMPLE",
+            "bbox": [
+              0.31805555555555554,
+              0.11454545454545455,
+              0.6819444444444445,
+              0.1318181818181818
+            ],
+            "confidence": 0.9742709810917194,
+            "label": "item_description",
+            "model_confidence": 0.9999025119818428
+          },
+          {
+            "text": "010CT 2026",
+            "bbox": [
+              0.08472222222222223,
+              0.17454545454545456,
+              0.2875,
+              0.19545454545454546
+            ],
+            "confidence": 0.9580382645130158,
+            "label": "item_description",
+            "model_confidence": 0.4791159504133487
+          },
+          {
+            "text": "10:24",
+            "bbox": [
+              0.3527777777777778,
+              0.17454545454545456,
+              0.4527777777777778,
+              0.19636363636363635
+            ],
+            "confidence": 0.9992441415786744,
+            "label": "item_unit_price",
+            "model_confidence": 0.5924604086704363
+          },
+          {
+            "text": "RECEIPT # RL-A001",
+            "bbox": [
+              0.08472222222222223,
+              0.2109090909090909,
+              0.3958333333333333,
+              0.2309090909090909
+            ],
+            "confidence": 0.9725284190738902,
+            "label": "item_description",
+            "model_confidence": 0.9142623158159165
+          },
+          {
+            "text": "AMOUNT",
+            "bbox": [
+              0.8097222222222222,
+              0.2872727272727273,
+              0.9194444444444444,
+              0.3118181818181818
+            ],
+            "confidence": 0.9964083731174469,
+            "label": "subtotal",
+            "model_confidence": 0.8556504994417837
+          },
+          {
+            "text": "ITEM",
+            "bbox": [
+              0.08333333333333333,
+              0.2909090909090909,
+              0.1597222222222222,
+              0.31363636363636366
+            ],
+            "confidence": 0.9983023107051849,
+            "label": "item_description",
+            "model_confidence": 0.9815080334262347
+          },
+          {
+            "text": "4.50",
+            "bbox": [
+              0.8319444444444445,
+              0.34,
+              0.9194444444444444,
+              0.3654545454545455
+            ],
+            "confidence": 0.9998229891061783,
+            "label": "item_amount",
+            "model_confidence": 0.9999518253928978
+          },
+          {
+            "text": "OAT LATTE",
+            "bbox": [
+              0.08472222222222223,
+              0.34454545454545454,
+              0.2638888888888889,
+              0.3663636363636364
+            ],
+            "confidence": 0.9641462432013618,
+            "label": "item_description",
+            "model_confidence": 0.9999219877521888
+          },
+          {
+            "text": "3.80",
+            "bbox": [
+              0.8347222222222223,
+              0.3990909090909091,
+              0.9166666666666666,
+              0.4218181818181818
+            ],
+            "confidence": 0.999760314822197,
+            "label": "item_amount",
+            "model_confidence": 0.9999969811524018
+          },
+          {
+            "text": "BUTTERCROISSANT",
+            "bbox": [
+              0.08611111111111111,
+              0.4027272727272727,
+              0.39861111111111114,
+              0.42363636363636364
+            ],
+            "confidence": 0.997584323088328,
+            "label": "item_description",
+            "model_confidence": 0.9997488337522082
+          },
+          {
+            "text": "3.20",
+            "bbox": [
+              0.8319444444444445,
+              0.45545454545454545,
+              0.9194444444444444,
+              0.48
+            ],
+            "confidence": 0.9996006041765213,
+            "label": "item_amount",
+            "model_confidence": 0.9999674958446042
+          },
+          {
+            "text": "FILTER COFFEE",
+            "bbox": [
+              0.08333333333333333,
+              0.4581818181818182,
+              0.3416666666666667,
+              0.4809090909090909
+            ],
+            "confidence": 0.9938528308501611,
+            "label": "item_description",
+            "model_confidence": 0.9997895188391993
+          },
+          {
+            "text": "11.50",
+            "bbox": [
+              0.8138888888888889,
+              0.6654545454545454,
+              0.9180555555555555,
+              0.6872727272727273
+            ],
+            "confidence": 0.9999513387680053,
+            "label": "item_amount",
+            "model_confidence": 0.9999778902455188
+          },
+          {
+            "text": "SUBTOTAL",
+            "bbox": [
+              0.08333333333333333,
+              0.6672727272727272,
+              0.24444444444444444,
+              0.6909090909090909
+            ],
+            "confidence": 0.9987717121839523,
+            "label": "item_description",
+            "model_confidence": 0.969392663986146
+          },
+          {
+            "text": "0.92",
+            "bbox": [
+              0.8319444444444445,
+              0.7090909090909091,
+              0.9194444444444444,
+              0.7336363636363636
+            ],
+            "confidence": 0.9998256862163544,
+            "label": "item_amount",
+            "model_confidence": 0.9908969996173511
+          },
+          {
+            "text": "TAX",
+            "bbox": [
+              0.08194444444444444,
+              0.7109090909090909,
+              0.1527777777777778,
+              0.7363636363636363
+            ],
+            "confidence": 0.998794674873352,
+            "label": "item_description",
+            "model_confidence": 0.9973585240252278
+          },
+          {
+            "text": "12.42",
+            "bbox": [
+              0.7916666666666666,
+              0.7672727272727272,
+              0.9166666666666666,
+              0.7918181818181819
+            ],
+            "confidence": 0.999972152709961,
+            "label": "item_amount",
+            "model_confidence": 0.9630130011676644
+          },
+          {
+            "text": "TOTAL",
+            "bbox": [
+              0.08333333333333333,
+              0.7709090909090909,
+              0.20694444444444443,
+              0.7954545454545454
+            ],
+            "confidence": 0.9981956005096435,
+            "label": "item_description",
+            "model_confidence": 0.7905521543750942
+          },
+          {
+            "text": "THANK YOU.KEEP CREATING.",
+            "bbox": [
+              0.2902777777777778,
+              0.8790909090909091,
+              0.7069444444444445,
+              0.8972727272727272
+            ],
+            "confidence": 0.9769620870550474,
+            "label": "other",
+            "model_confidence": 0.9869221558445099
+          }
+        ],
+        "warnings": [
+          "Subtotal recovered from explicit text; inspect its highlighted source.",
+          "Tax recovered from explicit text; inspect its highlighted source.",
+          "Total recovered from explicit text; inspect its highlighted source.",
+          "Unsupported descriptions or receipt metadata were removed; verify retained items.",
+          "Assisted extraction requires human review. Text anchors carry no learned confidence."
+        ],
+        "model_version": "cord-line-v1",
+        "confidence": 0.0,
+        "needs_review": true,
+        "extraction_mode": "assisted_text_anchor",
+        "raw_extraction": {
+          "fields": {
+            "subtotal": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "tax": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "discount": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "total": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            }
+          },
+          "items": [
+            {
+              "description": "PAPER & BEAN",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9636485675970713
+            },
+            {
+              "description": "SYNTHETIC PORTFOLIO SAMPLE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9742709810917194
+            },
+            {
+              "description": "010CT 2026",
+              "quantity": null,
+              "unit_price": "24.00",
+              "amount": null,
+              "confidence": 0.4791159504133487
+            },
+            {
+              "description": "RECEIPT # RL-A001",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9142623158159165
+            },
+            {
+              "description": "ITEM",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9815080334262347
+            },
+            {
+              "description": "OAT LATTE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "4.50",
+              "confidence": 0.9641462432013618
+            },
+            {
+              "description": "BUTTERCROISSANT",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "3.80",
+              "confidence": 0.997584323088328
+            },
+            {
+              "description": "FILTER COFFEE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "3.20",
+              "confidence": 0.9938528308501611
+            },
+            {
+              "description": "SUBTOTAL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "11.50",
+              "confidence": 0.969392663986146
+            },
+            {
+              "description": "TAX",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "0.92",
+              "confidence": 0.9908969996173511
+            },
+            {
+              "description": "TOTAL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "12.42",
+              "confidence": 0.7905521543750942
+            }
+          ],
+          "lines": [
+            {
+              "text": "PAPER & BEAN",
+              "bbox": [
+                0.3416666666666667,
+                0.07090909090909091,
+                0.6611111111111111,
+                0.09727272727272727
+              ],
+              "confidence": 0.9636485675970713,
+              "label": "item_description",
+              "model_confidence": 0.9998973756876568
+            },
+            {
+              "text": "SYNTHETIC PORTFOLIO SAMPLE",
+              "bbox": [
+                0.31805555555555554,
+                0.11454545454545455,
+                0.6819444444444445,
+                0.1318181818181818
+              ],
+              "confidence": 0.9742709810917194,
+              "label": "item_description",
+              "model_confidence": 0.9999025119818428
+            },
+            {
+              "text": "010CT 2026",
+              "bbox": [
+                0.08472222222222223,
+                0.17454545454545456,
+                0.2875,
+                0.19545454545454546
+              ],
+              "confidence": 0.9580382645130158,
+              "label": "item_description",
+              "model_confidence": 0.4791159504133487
+            },
+            {
+              "text": "10:24",
+              "bbox": [
+                0.3527777777777778,
+                0.17454545454545456,
+                0.4527777777777778,
+                0.19636363636363635
+              ],
+              "confidence": 0.9992441415786744,
+              "label": "item_unit_price",
+              "model_confidence": 0.5924604086704363
+            },
+            {
+              "text": "RECEIPT # RL-A001",
+              "bbox": [
+                0.08472222222222223,
+                0.2109090909090909,
+                0.3958333333333333,
+                0.2309090909090909
+              ],
+              "confidence": 0.9725284190738902,
+              "label": "item_description",
+              "model_confidence": 0.9142623158159165
+            },
+            {
+              "text": "AMOUNT",
+              "bbox": [
+                0.8097222222222222,
+                0.2872727272727273,
+                0.9194444444444444,
+                0.3118181818181818
+              ],
+              "confidence": 0.9964083731174469,
+              "label": "subtotal",
+              "model_confidence": 0.8556504994417837
+            },
+            {
+              "text": "ITEM",
+              "bbox": [
+                0.08333333333333333,
+                0.2909090909090909,
+                0.1597222222222222,
+                0.31363636363636366
+              ],
+              "confidence": 0.9983023107051849,
+              "label": "item_description",
+              "model_confidence": 0.9815080334262347
+            },
+            {
+              "text": "4.50",
+              "bbox": [
+                0.8319444444444445,
+                0.34,
+                0.9194444444444444,
+                0.3654545454545455
+              ],
+              "confidence": 0.9998229891061783,
+              "label": "item_amount",
+              "model_confidence": 0.9999518253928978
+            },
+            {
+              "text": "OAT LATTE",
+              "bbox": [
+                0.08472222222222223,
+                0.34454545454545454,
+                0.2638888888888889,
+                0.3663636363636364
+              ],
+              "confidence": 0.9641462432013618,
+              "label": "item_description",
+              "model_confidence": 0.9999219877521888
+            },
+            {
+              "text": "3.80",
+              "bbox": [
+                0.8347222222222223,
+                0.3990909090909091,
+                0.9166666666666666,
+                0.4218181818181818
+              ],
+              "confidence": 0.999760314822197,
+              "label": "item_amount",
+              "model_confidence": 0.9999969811524018
+            },
+            {
+              "text": "BUTTERCROISSANT",
+              "bbox": [
+                0.08611111111111111,
+                0.4027272727272727,
+                0.39861111111111114,
+                0.42363636363636364
+              ],
+              "confidence": 0.997584323088328,
+              "label": "item_description",
+              "model_confidence": 0.9997488337522082
+            },
+            {
+              "text": "3.20",
+              "bbox": [
+                0.8319444444444445,
+                0.45545454545454545,
+                0.9194444444444444,
+                0.48
+              ],
+              "confidence": 0.9996006041765213,
+              "label": "item_amount",
+              "model_confidence": 0.9999674958446042
+            },
+            {
+              "text": "FILTER COFFEE",
+              "bbox": [
+                0.08333333333333333,
+                0.4581818181818182,
+                0.3416666666666667,
+                0.4809090909090909
+              ],
+              "confidence": 0.9938528308501611,
+              "label": "item_description",
+              "model_confidence": 0.9997895188391993
+            },
+            {
+              "text": "11.50",
+              "bbox": [
+                0.8138888888888889,
+                0.6654545454545454,
+                0.9180555555555555,
+                0.6872727272727273
+              ],
+              "confidence": 0.9999513387680053,
+              "label": "item_amount",
+              "model_confidence": 0.9999778902455188
+            },
+            {
+              "text": "SUBTOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.6672727272727272,
+                0.24444444444444444,
+                0.6909090909090909
+              ],
+              "confidence": 0.9987717121839523,
+              "label": "item_description",
+              "model_confidence": 0.969392663986146
+            },
+            {
+              "text": "0.92",
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9194444444444444,
+                0.7336363636363636
+              ],
+              "confidence": 0.9998256862163544,
+              "label": "item_amount",
+              "model_confidence": 0.9908969996173511
+            },
+            {
+              "text": "TAX",
+              "bbox": [
+                0.08194444444444444,
+                0.7109090909090909,
+                0.1527777777777778,
+                0.7363636363636363
+              ],
+              "confidence": 0.998794674873352,
+              "label": "item_description",
+              "model_confidence": 0.9973585240252278
+            },
+            {
+              "text": "12.42",
+              "bbox": [
+                0.7916666666666666,
+                0.7672727272727272,
+                0.9166666666666666,
+                0.7918181818181819
+              ],
+              "confidence": 0.999972152709961,
+              "label": "item_amount",
+              "model_confidence": 0.9630130011676644
+            },
+            {
+              "text": "TOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.7709090909090909,
+                0.20694444444444443,
+                0.7954545454545454
+              ],
+              "confidence": 0.9981956005096435,
+              "label": "item_description",
+              "model_confidence": 0.7905521543750942
+            },
+            {
+              "text": "THANK YOU.KEEP CREATING.",
+              "bbox": [
+                0.2902777777777778,
+                0.8790909090909091,
+                0.7069444444444445,
+                0.8972727272727272
+              ],
+              "confidence": 0.9769620870550474,
+              "label": "other",
+              "model_confidence": 0.9869221558445099
+            }
+          ],
+          "warnings": [
+            "Total was not extracted; manual review is required.",
+            "Some line items need manual review.",
+            "A receipt total is required before approval.",
+            "Every line item needs an amount before approval."
+          ],
+          "model_version": "cord-line-v1",
+          "confidence": 0.4791159504133487,
+          "needs_review": true,
+          "extraction_mode": "learned_model"
+        }
+      }
+    },
+    {
+      "id": "99c89ede-7ded-59e4-a954-bf182a896149",
+      "filename": "sample-b.png",
+      "source": "synthetic portfolio sample",
+      "width": 720,
+      "height": 1100,
+      "page_count": 1,
+      "revision": 2,
+      "status": "needs_review",
+      "created_at": "2026-10-01T12:00:00+00:00",
+      "image_url": "samples/sample-b.png",
+      "extraction": {
+        "fields": {
+          "subtotal": {
+            "value": "23.00",
+            "confidence": 0.0,
+            "bbox": [
+              0.8152777777777778,
+              0.6654545454545454,
+              0.9180555555555555,
+              0.6872727272727273
+            ],
+            "origin": "text_anchor"
+          },
+          "tax": {
+            "value": "1.84",
+            "confidence": 0.0,
+            "bbox": [
+              0.8319444444444445,
+              0.7090909090909091,
+              0.9194444444444444,
+              0.7336363636363636
+            ],
+            "origin": "text_anchor"
+          },
+          "discount": {
+            "value": null,
+            "confidence": 0.0,
+            "bbox": null,
+            "origin": "learned_model"
+          },
+          "total": {
+            "value": "24.84",
+            "confidence": 0.0,
+            "bbox": [
+              0.7930555555555555,
+              0.7672727272727272,
+              0.9180555555555555,
+              0.7918181818181819
+            ],
+            "origin": "text_anchor"
+          }
+        },
+        "items": [
+          {
+            "description": "SOURDOUGH LOAF",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "5.20",
+            "confidence": 0.9639062327998025
+          },
+          {
+            "description": "OLIVE OIL",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "9.90",
+            "confidence": 0.9523295826382108
+          },
+          {
+            "description": "SEASONAL APPLES",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "4.40",
+            "confidence": 0.9861976265907287
+          },
+          {
+            "description": "OAT MILK",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "3.50",
+            "confidence": 0.9818012937903404
+          }
+        ],
+        "lines": [
+          {
+            "text": "THE GREEN MARKET",
+            "bbox": [
+              0.2902777777777778,
+              0.07090909090909091,
+              0.7125,
+              0.09454545454545454
+            ],
+            "confidence": 0.9463316723704338,
+            "label": "item_description",
+            "model_confidence": 0.9998679676440375
+          },
+          {
+            "text": "SYNTHETIC PORTFOLIO SAMPLE",
+            "bbox": [
+              0.3194444444444444,
+              0.11454545454545455,
+              0.6819444444444445,
+              0.1318181818181818
+            ],
+            "confidence": 0.9838522718502924,
+            "label": "item_description",
+            "model_confidence": 0.999921815340998
+          },
+          {
+            "text": "01 0CT 2026",
+            "bbox": [
+              0.08472222222222223,
+              0.17454545454545456,
+              0.2875,
+              0.19545454545454546
+            ],
+            "confidence": 0.9350031993605874,
+            "label": "item_description",
+            "model_confidence": 0.6103612473483345
+          },
+          {
+            "text": "10:24",
+            "bbox": [
+              0.3527777777777778,
+              0.17454545454545456,
+              0.4527777777777778,
+              0.19636363636363635
+            ],
+            "confidence": 0.9992441415786744,
+            "label": "item_unit_price",
+            "model_confidence": 0.5871482108188615
+          },
+          {
+            "text": "RECEIPT # RL-B001",
+            "bbox": [
+              0.08472222222222223,
+              0.2109090909090909,
+              0.3958333333333333,
+              0.2309090909090909
+            ],
+            "confidence": 0.9276893805055058,
+            "label": "item_description",
+            "model_confidence": 0.9191638196943493
+          },
+          {
+            "text": "AMOUNT",
+            "bbox": [
+              0.8097222222222222,
+              0.2872727272727273,
+              0.9194444444444444,
+              0.3118181818181818
+            ],
+            "confidence": 0.9964083731174469,
+            "label": "subtotal",
+            "model_confidence": 0.8463019721860332
+          },
+          {
+            "text": "ITEM",
+            "bbox": [
+              0.08333333333333333,
+              0.2909090909090909,
+              0.1597222222222222,
+              0.31363636363636366
+            ],
+            "confidence": 0.9983023107051849,
+            "label": "item_description",
+            "model_confidence": 0.9866624599454195
+          },
+          {
+            "text": "5.20",
+            "bbox": [
+              0.8319444444444445,
+              0.34,
+              0.9194444444444444,
+              0.3663636363636364
+            ],
+            "confidence": 0.9997454732656479,
+            "label": "item_amount",
+            "model_confidence": 0.9998881133455876
+          },
+          {
+            "text": "SOURDOUGH LOAF",
+            "bbox": [
+              0.08472222222222223,
+              0.34363636363636363,
+              0.3611111111111111,
+              0.36727272727272725
+            ],
+            "confidence": 0.9639062327998025,
+            "label": "item_description",
+            "model_confidence": 0.9999388230274306
+          },
+          {
+            "text": "9.90",
+            "bbox": [
+              0.8333333333333334,
+              0.3990909090909091,
+              0.9166666666666666,
+              0.4218181818181818
+            ],
+            "confidence": 0.9997788369655609,
+            "label": "item_amount",
+            "model_confidence": 0.9999881702268971
+          },
+          {
+            "text": "OLIVE OIL",
+            "bbox": [
+              0.08333333333333333,
+              0.4009090909090909,
+              0.2638888888888889,
+              0.4254545454545455
+            ],
+            "confidence": 0.9523295826382108,
+            "label": "item_description",
+            "model_confidence": 0.9998849812561211
+          },
+          {
+            "text": "4.40",
+            "bbox": [
+              0.8305555555555556,
+              0.4536363636363636,
+              0.9166666666666666,
+              0.4781818181818182
+            ],
+            "confidence": 0.9998387396335602,
+            "label": "item_amount",
+            "model_confidence": 0.9999859806651847
+          },
+          {
+            "text": "SEASONAL APPLES",
+            "bbox": [
+              0.08472222222222223,
+              0.4590909090909091,
+              0.38055555555555554,
+              0.4818181818181818
+            ],
+            "confidence": 0.9861976265907287,
+            "label": "item_description",
+            "model_confidence": 0.99950157829768
+          },
+          {
+            "text": "3.50",
+            "bbox": [
+              0.8333333333333334,
+              0.5127272727272727,
+              0.9194444444444444,
+              0.5372727272727272
+            ],
+            "confidence": 0.9997861832380295,
+            "label": "item_amount",
+            "model_confidence": 0.999973582505943
+          },
+          {
+            "text": "OAT MILK",
+            "bbox": [
+              0.08333333333333333,
+              0.5154545454545455,
+              0.24722222222222223,
+              0.5390909090909091
+            ],
+            "confidence": 0.9818012937903404,
+            "label": "item_description",
+            "model_confidence": 0.9995184169367757
+          },
+          {
+            "text": "23.00",
+            "bbox": [
+              0.8152777777777778,
+              0.6654545454545454,
+              0.9180555555555555,
+              0.6872727272727273
+            ],
+            "confidence": 0.9997849702835083,
+            "label": "item_amount",
+            "model_confidence": 0.9999031427317643
+          },
+          {
+            "text": "SUBTOTAL",
+            "bbox": [
+              0.08333333333333333,
+              0.6672727272727272,
+              0.24305555555555555,
+              0.6909090909090909
+            ],
+            "confidence": 0.9982233420014381,
+            "label": "item_description",
+            "model_confidence": 0.9911078130542201
+          },
+          {
+            "text": "1.84",
+            "bbox": [
+              0.8319444444444445,
+              0.7090909090909091,
+              0.9194444444444444,
+              0.7336363636363636
+            ],
+            "confidence": 0.9999505579471588,
+            "label": "item_amount",
+            "model_confidence": 0.9933921262208171
+          },
+          {
+            "text": "TAX",
+            "bbox": [
+              0.08194444444444444,
+              0.7109090909090909,
+              0.1527777777777778,
+              0.7363636363636363
+            ],
+            "confidence": 0.998794674873352,
+            "label": "item_description",
+            "model_confidence": 0.9982637139523844
+          },
+          {
+            "text": "24.84",
+            "bbox": [
+              0.7930555555555555,
+              0.7672727272727272,
+              0.9180555555555555,
+              0.7918181818181819
+            ],
+            "confidence": 0.9999817848205567,
+            "label": "item_amount",
+            "model_confidence": 0.9826340403548093
+          },
+          {
+            "text": "TOTAL",
+            "bbox": [
+              0.08333333333333333,
+              0.7709090909090909,
+              0.20694444444444443,
+              0.7954545454545454
+            ],
+            "confidence": 0.9981956005096435,
+            "label": "item_description",
+            "model_confidence": 0.8940922429853304
+          },
+          {
+            "text": "THANK YOU.KEEP CREATING.",
+            "bbox": [
+              0.2902777777777778,
+              0.8790909090909091,
+              0.7069444444444445,
+              0.8972727272727272
+            ],
+            "confidence": 0.9769620870550474,
+            "label": "other",
+            "model_confidence": 0.987231995380721
+          }
+        ],
+        "warnings": [
+          "Subtotal recovered from explicit text; inspect its highlighted source.",
+          "Tax recovered from explicit text; inspect its highlighted source.",
+          "Total recovered from explicit text; inspect its highlighted source.",
+          "Unsupported descriptions or receipt metadata were removed; verify retained items.",
+          "Assisted extraction requires human review. Text anchors carry no learned confidence."
+        ],
+        "model_version": "cord-line-v1",
+        "confidence": 0.0,
+        "needs_review": true,
+        "extraction_mode": "assisted_text_anchor",
+        "raw_extraction": {
+          "fields": {
+            "subtotal": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "tax": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "discount": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "total": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            }
+          },
+          "items": [
+            {
+              "description": "THE GREEN MARKET",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9463316723704338
+            },
+            {
+              "description": "SYNTHETIC PORTFOLIO SAMPLE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9838522718502924
+            },
+            {
+              "description": "01 0CT 2026",
+              "quantity": null,
+              "unit_price": "24.00",
+              "amount": null,
+              "confidence": 0.5871482108188615
+            },
+            {
+              "description": "RECEIPT # RL-B001",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9191638196943493
+            },
+            {
+              "description": "ITEM",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9866624599454195
+            },
+            {
+              "description": "SOURDOUGH LOAF",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "5.20",
+              "confidence": 0.9639062327998025
+            },
+            {
+              "description": "OLIVE OIL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "9.90",
+              "confidence": 0.9523295826382108
+            },
+            {
+              "description": "SEASONAL APPLES",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "4.40",
+              "confidence": 0.9861976265907287
+            },
+            {
+              "description": "OAT MILK",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "3.50",
+              "confidence": 0.9818012937903404
+            },
+            {
+              "description": "SUBTOTAL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "23.00",
+              "confidence": 0.9911078130542201
+            },
+            {
+              "description": "TAX",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "1.84",
+              "confidence": 0.9933921262208171
+            },
+            {
+              "description": "TOTAL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "24.84",
+              "confidence": 0.8940922429853304
+            }
+          ],
+          "lines": [
+            {
+              "text": "THE GREEN MARKET",
+              "bbox": [
+                0.2902777777777778,
+                0.07090909090909091,
+                0.7125,
+                0.09454545454545454
+              ],
+              "confidence": 0.9463316723704338,
+              "label": "item_description",
+              "model_confidence": 0.9998679676440375
+            },
+            {
+              "text": "SYNTHETIC PORTFOLIO SAMPLE",
+              "bbox": [
+                0.3194444444444444,
+                0.11454545454545455,
+                0.6819444444444445,
+                0.1318181818181818
+              ],
+              "confidence": 0.9838522718502924,
+              "label": "item_description",
+              "model_confidence": 0.999921815340998
+            },
+            {
+              "text": "01 0CT 2026",
+              "bbox": [
+                0.08472222222222223,
+                0.17454545454545456,
+                0.2875,
+                0.19545454545454546
+              ],
+              "confidence": 0.9350031993605874,
+              "label": "item_description",
+              "model_confidence": 0.6103612473483345
+            },
+            {
+              "text": "10:24",
+              "bbox": [
+                0.3527777777777778,
+                0.17454545454545456,
+                0.4527777777777778,
+                0.19636363636363635
+              ],
+              "confidence": 0.9992441415786744,
+              "label": "item_unit_price",
+              "model_confidence": 0.5871482108188615
+            },
+            {
+              "text": "RECEIPT # RL-B001",
+              "bbox": [
+                0.08472222222222223,
+                0.2109090909090909,
+                0.3958333333333333,
+                0.2309090909090909
+              ],
+              "confidence": 0.9276893805055058,
+              "label": "item_description",
+              "model_confidence": 0.9191638196943493
+            },
+            {
+              "text": "AMOUNT",
+              "bbox": [
+                0.8097222222222222,
+                0.2872727272727273,
+                0.9194444444444444,
+                0.3118181818181818
+              ],
+              "confidence": 0.9964083731174469,
+              "label": "subtotal",
+              "model_confidence": 0.8463019721860332
+            },
+            {
+              "text": "ITEM",
+              "bbox": [
+                0.08333333333333333,
+                0.2909090909090909,
+                0.1597222222222222,
+                0.31363636363636366
+              ],
+              "confidence": 0.9983023107051849,
+              "label": "item_description",
+              "model_confidence": 0.9866624599454195
+            },
+            {
+              "text": "5.20",
+              "bbox": [
+                0.8319444444444445,
+                0.34,
+                0.9194444444444444,
+                0.3663636363636364
+              ],
+              "confidence": 0.9997454732656479,
+              "label": "item_amount",
+              "model_confidence": 0.9998881133455876
+            },
+            {
+              "text": "SOURDOUGH LOAF",
+              "bbox": [
+                0.08472222222222223,
+                0.34363636363636363,
+                0.3611111111111111,
+                0.36727272727272725
+              ],
+              "confidence": 0.9639062327998025,
+              "label": "item_description",
+              "model_confidence": 0.9999388230274306
+            },
+            {
+              "text": "9.90",
+              "bbox": [
+                0.8333333333333334,
+                0.3990909090909091,
+                0.9166666666666666,
+                0.4218181818181818
+              ],
+              "confidence": 0.9997788369655609,
+              "label": "item_amount",
+              "model_confidence": 0.9999881702268971
+            },
+            {
+              "text": "OLIVE OIL",
+              "bbox": [
+                0.08333333333333333,
+                0.4009090909090909,
+                0.2638888888888889,
+                0.4254545454545455
+              ],
+              "confidence": 0.9523295826382108,
+              "label": "item_description",
+              "model_confidence": 0.9998849812561211
+            },
+            {
+              "text": "4.40",
+              "bbox": [
+                0.8305555555555556,
+                0.4536363636363636,
+                0.9166666666666666,
+                0.4781818181818182
+              ],
+              "confidence": 0.9998387396335602,
+              "label": "item_amount",
+              "model_confidence": 0.9999859806651847
+            },
+            {
+              "text": "SEASONAL APPLES",
+              "bbox": [
+                0.08472222222222223,
+                0.4590909090909091,
+                0.38055555555555554,
+                0.4818181818181818
+              ],
+              "confidence": 0.9861976265907287,
+              "label": "item_description",
+              "model_confidence": 0.99950157829768
+            },
+            {
+              "text": "3.50",
+              "bbox": [
+                0.8333333333333334,
+                0.5127272727272727,
+                0.9194444444444444,
+                0.5372727272727272
+              ],
+              "confidence": 0.9997861832380295,
+              "label": "item_amount",
+              "model_confidence": 0.999973582505943
+            },
+            {
+              "text": "OAT MILK",
+              "bbox": [
+                0.08333333333333333,
+                0.5154545454545455,
+                0.24722222222222223,
+                0.5390909090909091
+              ],
+              "confidence": 0.9818012937903404,
+              "label": "item_description",
+              "model_confidence": 0.9995184169367757
+            },
+            {
+              "text": "23.00",
+              "bbox": [
+                0.8152777777777778,
+                0.6654545454545454,
+                0.9180555555555555,
+                0.6872727272727273
+              ],
+              "confidence": 0.9997849702835083,
+              "label": "item_amount",
+              "model_confidence": 0.9999031427317643
+            },
+            {
+              "text": "SUBTOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.6672727272727272,
+                0.24305555555555555,
+                0.6909090909090909
+              ],
+              "confidence": 0.9982233420014381,
+              "label": "item_description",
+              "model_confidence": 0.9911078130542201
+            },
+            {
+              "text": "1.84",
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9194444444444444,
+                0.7336363636363636
+              ],
+              "confidence": 0.9999505579471588,
+              "label": "item_amount",
+              "model_confidence": 0.9933921262208171
+            },
+            {
+              "text": "TAX",
+              "bbox": [
+                0.08194444444444444,
+                0.7109090909090909,
+                0.1527777777777778,
+                0.7363636363636363
+              ],
+              "confidence": 0.998794674873352,
+              "label": "item_description",
+              "model_confidence": 0.9982637139523844
+            },
+            {
+              "text": "24.84",
+              "bbox": [
+                0.7930555555555555,
+                0.7672727272727272,
+                0.9180555555555555,
+                0.7918181818181819
+              ],
+              "confidence": 0.9999817848205567,
+              "label": "item_amount",
+              "model_confidence": 0.9826340403548093
+            },
+            {
+              "text": "TOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.7709090909090909,
+                0.20694444444444443,
+                0.7954545454545454
+              ],
+              "confidence": 0.9981956005096435,
+              "label": "item_description",
+              "model_confidence": 0.8940922429853304
+            },
+            {
+              "text": "THANK YOU.KEEP CREATING.",
+              "bbox": [
+                0.2902777777777778,
+                0.8790909090909091,
+                0.7069444444444445,
+                0.8972727272727272
+              ],
+              "confidence": 0.9769620870550474,
+              "label": "other",
+              "model_confidence": 0.987231995380721
+            }
+          ],
+          "warnings": [
+            "Total was not extracted; manual review is required.",
+            "Some line items need manual review.",
+            "A receipt total is required before approval.",
+            "Every line item needs an amount before approval."
+          ],
+          "model_version": "cord-line-v1",
+          "confidence": 0.5871482108188615,
+          "needs_review": true,
+          "extraction_mode": "learned_model"
+        }
+      }
+    },
+    {
+      "id": "2bb8dfd9-1161-5cd3-b17c-da3b95ddd193",
+      "filename": "sample-c.png",
+      "source": "synthetic portfolio sample",
+      "width": 720,
+      "height": 1100,
+      "page_count": 1,
+      "revision": 2,
+      "status": "needs_review",
+      "created_at": "2026-10-01T12:00:00+00:00",
+      "image_url": "samples/sample-c.png",
+      "extraction": {
+        "fields": {
+          "subtotal": {
+            "value": "22.75",
+            "confidence": 0.0,
+            "bbox": [
+              0.8138888888888889,
+              0.6645454545454546,
+              0.9180555555555555,
+              0.6890909090909091
+            ],
+            "origin": "text_anchor"
+          },
+          "tax": {
+            "value": "1.82",
+            "confidence": 0.0,
+            "bbox": [
+              0.8319444444444445,
+              0.7090909090909091,
+              0.9180555555555555,
+              0.7336363636363636
+            ],
+            "origin": "text_anchor"
+          },
+          "discount": {
+            "value": null,
+            "confidence": 0.0,
+            "bbox": null,
+            "origin": "learned_model"
+          },
+          "total": {
+            "value": "24.57",
+            "confidence": 0.0,
+            "bbox": [
+              0.7930555555555555,
+              0.7672727272727272,
+              0.9152777777777777,
+              0.7918181818181819
+            ],
+            "origin": "text_anchor"
+          }
+        },
+        "items": [
+          {
+            "description": "SKETCHBOOK",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "12.00",
+            "confidence": 0.99917271733284
+          },
+          {
+            "description": "GRAPHITE PENCILS",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "6.50",
+            "confidence": 0.9818777404725552
+          },
+          {
+            "description": "PAPER TAPE",
+            "quantity": null,
+            "unit_price": null,
+            "amount": "4.25",
+            "confidence": 0.9523536503314972
+          }
+        ],
+        "lines": [
+          {
+            "text": "STUDIO SUPPLY",
+            "bbox": [
+              0.32916666666666666,
+              0.07,
+              0.6708333333333333,
+              0.09363636363636364
+            ],
+            "confidence": 0.975544273853302,
+            "label": "item_description",
+            "model_confidence": 0.9995769788646535
+          },
+          {
+            "text": "SYNTHETIC PORTFOLIO SAMPLE",
+            "bbox": [
+              0.31805555555555554,
+              0.11454545454545455,
+              0.6819444444444445,
+              0.1318181818181818
+            ],
+            "confidence": 0.9742709810917194,
+            "label": "item_description",
+            "model_confidence": 0.9998825722103389
+          },
+          {
+            "text": "010CT 2026",
+            "bbox": [
+              0.08472222222222223,
+              0.17454545454545456,
+              0.2875,
+              0.19545454545454546
+            ],
+            "confidence": 0.9580382645130158,
+            "label": "item_description",
+            "model_confidence": 0.4791159504133487
+          },
+          {
+            "text": "10:24",
+            "bbox": [
+              0.3527777777777778,
+              0.17454545454545456,
+              0.4527777777777778,
+              0.19636363636363635
+            ],
+            "confidence": 0.9992441415786744,
+            "label": "item_unit_price",
+            "model_confidence": 0.6129008968946807
+          },
+          {
+            "text": "RECEIPT # RL-C001",
+            "bbox": [
+              0.08472222222222223,
+              0.2109090909090909,
+              0.3958333333333333,
+              0.2309090909090909
+            ],
+            "confidence": 0.9731005044544444,
+            "label": "item_description",
+            "model_confidence": 0.9123559197191625
+          },
+          {
+            "text": "AMOUNT",
+            "bbox": [
+              0.8111111111111111,
+              0.2881818181818182,
+              0.9180555555555555,
+              0.31
+            ],
+            "confidence": 0.9956458409627279,
+            "label": "subtotal",
+            "model_confidence": 0.8526084545678759
+          },
+          {
+            "text": "ITEM",
+            "bbox": [
+              0.08333333333333333,
+              0.2909090909090909,
+              0.1597222222222222,
+              0.31363636363636366
+            ],
+            "confidence": 0.9983023107051849,
+            "label": "item_description",
+            "model_confidence": 0.9829597645436409
+          },
+          {
+            "text": "12.00",
+            "bbox": [
+              0.8138888888888889,
+              0.3418181818181818,
+              0.9166666666666666,
+              0.36454545454545456
+            ],
+            "confidence": 0.9998017430305481,
+            "label": "item_amount",
+            "model_confidence": 0.9997081167522232
+          },
+          {
+            "text": "SKETCHBOOK",
+            "bbox": [
+              0.08611111111111111,
+              0.34454545454545454,
+              0.28194444444444444,
+              0.3663636363636364
+            ],
+            "confidence": 0.99917271733284,
+            "label": "item_description",
+            "model_confidence": 0.9999403891867182
+          },
+          {
+            "text": "6.50",
+            "bbox": [
+              0.8333333333333334,
+              0.3972727272727273,
+              0.9180555555555555,
+              0.42272727272727273
+            ],
+            "confidence": 0.9998778253793716,
+            "label": "item_amount",
+            "model_confidence": 0.9999836340429492
+          },
+          {
+            "text": "GRAPHITE PENCILS",
+            "bbox": [
+              0.08611111111111111,
+              0.4027272727272727,
+              0.39861111111111114,
+              0.42363636363636364
+            ],
+            "confidence": 0.9818777404725552,
+            "label": "item_description",
+            "model_confidence": 0.9998603397028175
+          },
+          {
+            "text": "4.25",
+            "bbox": [
+              0.8291666666666667,
+              0.4527272727272727,
+              0.9194444444444444,
+              0.4809090909090909
+            ],
+            "confidence": 0.9998962432146072,
+            "label": "item_amount",
+            "model_confidence": 0.9999758167917896
+          },
+          {
+            "text": "PAPER TAPE",
+            "bbox": [
+              0.08333333333333333,
+              0.4590909090909091,
+              0.28194444444444444,
+              0.48
+            ],
+            "confidence": 0.9523536503314972,
+            "label": "item_description",
+            "model_confidence": 0.9999249323692576
+          },
+          {
+            "text": "22.75",
+            "bbox": [
+              0.8138888888888889,
+              0.6645454545454546,
+              0.9180555555555555,
+              0.6890909090909091
+            ],
+            "confidence": 0.9999542474746704,
+            "label": "item_amount",
+            "model_confidence": 0.9999391859386935
+          },
+          {
+            "text": "SUBTOTAL",
+            "bbox": [
+              0.08333333333333333,
+              0.6672727272727272,
+              0.24444444444444444,
+              0.6909090909090909
+            ],
+            "confidence": 0.9987717121839523,
+            "label": "item_description",
+            "model_confidence": 0.9909718707491815
+          },
+          {
+            "text": "1.82",
+            "bbox": [
+              0.8319444444444445,
+              0.7090909090909091,
+              0.9180555555555555,
+              0.7336363636363636
+            ],
+            "confidence": 0.9999209046363831,
+            "label": "item_amount",
+            "model_confidence": 0.9900299333649225
+          },
+          {
+            "text": "TAX",
+            "bbox": [
+              0.08194444444444444,
+              0.7109090909090909,
+              0.1527777777777778,
+              0.7363636363636363
+            ],
+            "confidence": 0.998794674873352,
+            "label": "item_description",
+            "model_confidence": 0.998403960559653
+          },
+          {
+            "text": "24.57",
+            "bbox": [
+              0.7930555555555555,
+              0.7672727272727272,
+              0.9152777777777777,
+              0.7918181818181819
+            ],
+            "confidence": 0.9999396324157714,
+            "label": "item_amount",
+            "model_confidence": 0.9832626264016167
+          },
+          {
+            "text": "TOTAL",
+            "bbox": [
+              0.08333333333333333,
+              0.7709090909090909,
+              0.20694444444444443,
+              0.7954545454545454
+            ],
+            "confidence": 0.9981956005096435,
+            "label": "item_description",
+            "model_confidence": 0.8898864237367602
+          },
+          {
+            "text": "THANK YOU.KEEP CREATING.",
+            "bbox": [
+              0.2902777777777778,
+              0.8790909090909091,
+              0.7069444444444445,
+              0.8972727272727272
+            ],
+            "confidence": 0.9769620870550474,
+            "label": "other",
+            "model_confidence": 0.9869221558445099
+          }
+        ],
+        "warnings": [
+          "Subtotal recovered from explicit text; inspect its highlighted source.",
+          "Tax recovered from explicit text; inspect its highlighted source.",
+          "Total recovered from explicit text; inspect its highlighted source.",
+          "Unsupported descriptions or receipt metadata were removed; verify retained items.",
+          "Assisted extraction requires human review. Text anchors carry no learned confidence."
+        ],
+        "model_version": "cord-line-v1",
+        "confidence": 0.0,
+        "needs_review": true,
+        "extraction_mode": "assisted_text_anchor",
+        "raw_extraction": {
+          "fields": {
+            "subtotal": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "tax": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "discount": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "total": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            }
+          },
+          "items": [
+            {
+              "description": "STUDIO SUPPLY",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.975544273853302
+            },
+            {
+              "description": "SYNTHETIC PORTFOLIO SAMPLE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9742709810917194
+            },
+            {
+              "description": "010CT 2026",
+              "quantity": null,
+              "unit_price": "24.00",
+              "amount": null,
+              "confidence": 0.4791159504133487
+            },
+            {
+              "description": "RECEIPT # RL-C001",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9123559197191625
+            },
+            {
+              "description": "ITEM",
+              "quantity": null,
+              "unit_price": null,
+              "amount": null,
+              "confidence": 0.9829597645436409
+            },
+            {
+              "description": "SKETCHBOOK",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "12.00",
+              "confidence": 0.99917271733284
+            },
+            {
+              "description": "GRAPHITE PENCILS",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "6.50",
+              "confidence": 0.9818777404725552
+            },
+            {
+              "description": "PAPER TAPE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "4.25",
+              "confidence": 0.9523536503314972
+            },
+            {
+              "description": "SUBTOTAL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "22.75",
+              "confidence": 0.9909718707491815
+            },
+            {
+              "description": "TAX",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "1.82",
+              "confidence": 0.9900299333649225
+            },
+            {
+              "description": "TOTAL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "24.57",
+              "confidence": 0.8898864237367602
+            }
+          ],
+          "lines": [
+            {
+              "text": "STUDIO SUPPLY",
+              "bbox": [
+                0.32916666666666666,
+                0.07,
+                0.6708333333333333,
+                0.09363636363636364
+              ],
+              "confidence": 0.975544273853302,
+              "label": "item_description",
+              "model_confidence": 0.9995769788646535
+            },
+            {
+              "text": "SYNTHETIC PORTFOLIO SAMPLE",
+              "bbox": [
+                0.31805555555555554,
+                0.11454545454545455,
+                0.6819444444444445,
+                0.1318181818181818
+              ],
+              "confidence": 0.9742709810917194,
+              "label": "item_description",
+              "model_confidence": 0.9998825722103389
+            },
+            {
+              "text": "010CT 2026",
+              "bbox": [
+                0.08472222222222223,
+                0.17454545454545456,
+                0.2875,
+                0.19545454545454546
+              ],
+              "confidence": 0.9580382645130158,
+              "label": "item_description",
+              "model_confidence": 0.4791159504133487
+            },
+            {
+              "text": "10:24",
+              "bbox": [
+                0.3527777777777778,
+                0.17454545454545456,
+                0.4527777777777778,
+                0.19636363636363635
+              ],
+              "confidence": 0.9992441415786744,
+              "label": "item_unit_price",
+              "model_confidence": 0.6129008968946807
+            },
+            {
+              "text": "RECEIPT # RL-C001",
+              "bbox": [
+                0.08472222222222223,
+                0.2109090909090909,
+                0.3958333333333333,
+                0.2309090909090909
+              ],
+              "confidence": 0.9731005044544444,
+              "label": "item_description",
+              "model_confidence": 0.9123559197191625
+            },
+            {
+              "text": "AMOUNT",
+              "bbox": [
+                0.8111111111111111,
+                0.2881818181818182,
+                0.9180555555555555,
+                0.31
+              ],
+              "confidence": 0.9956458409627279,
+              "label": "subtotal",
+              "model_confidence": 0.8526084545678759
+            },
+            {
+              "text": "ITEM",
+              "bbox": [
+                0.08333333333333333,
+                0.2909090909090909,
+                0.1597222222222222,
+                0.31363636363636366
+              ],
+              "confidence": 0.9983023107051849,
+              "label": "item_description",
+              "model_confidence": 0.9829597645436409
+            },
+            {
+              "text": "12.00",
+              "bbox": [
+                0.8138888888888889,
+                0.3418181818181818,
+                0.9166666666666666,
+                0.36454545454545456
+              ],
+              "confidence": 0.9998017430305481,
+              "label": "item_amount",
+              "model_confidence": 0.9997081167522232
+            },
+            {
+              "text": "SKETCHBOOK",
+              "bbox": [
+                0.08611111111111111,
+                0.34454545454545454,
+                0.28194444444444444,
+                0.3663636363636364
+              ],
+              "confidence": 0.99917271733284,
+              "label": "item_description",
+              "model_confidence": 0.9999403891867182
+            },
+            {
+              "text": "6.50",
+              "bbox": [
+                0.8333333333333334,
+                0.3972727272727273,
+                0.9180555555555555,
+                0.42272727272727273
+              ],
+              "confidence": 0.9998778253793716,
+              "label": "item_amount",
+              "model_confidence": 0.9999836340429492
+            },
+            {
+              "text": "GRAPHITE PENCILS",
+              "bbox": [
+                0.08611111111111111,
+                0.4027272727272727,
+                0.39861111111111114,
+                0.42363636363636364
+              ],
+              "confidence": 0.9818777404725552,
+              "label": "item_description",
+              "model_confidence": 0.9998603397028175
+            },
+            {
+              "text": "4.25",
+              "bbox": [
+                0.8291666666666667,
+                0.4527272727272727,
+                0.9194444444444444,
+                0.4809090909090909
+              ],
+              "confidence": 0.9998962432146072,
+              "label": "item_amount",
+              "model_confidence": 0.9999758167917896
+            },
+            {
+              "text": "PAPER TAPE",
+              "bbox": [
+                0.08333333333333333,
+                0.4590909090909091,
+                0.28194444444444444,
+                0.48
+              ],
+              "confidence": 0.9523536503314972,
+              "label": "item_description",
+              "model_confidence": 0.9999249323692576
+            },
+            {
+              "text": "22.75",
+              "bbox": [
+                0.8138888888888889,
+                0.6645454545454546,
+                0.9180555555555555,
+                0.6890909090909091
+              ],
+              "confidence": 0.9999542474746704,
+              "label": "item_amount",
+              "model_confidence": 0.9999391859386935
+            },
+            {
+              "text": "SUBTOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.6672727272727272,
+                0.24444444444444444,
+                0.6909090909090909
+              ],
+              "confidence": 0.9987717121839523,
+              "label": "item_description",
+              "model_confidence": 0.9909718707491815
+            },
+            {
+              "text": "1.82",
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9180555555555555,
+                0.7336363636363636
+              ],
+              "confidence": 0.9999209046363831,
+              "label": "item_amount",
+              "model_confidence": 0.9900299333649225
+            },
+            {
+              "text": "TAX",
+              "bbox": [
+                0.08194444444444444,
+                0.7109090909090909,
+                0.1527777777777778,
+                0.7363636363636363
+              ],
+              "confidence": 0.998794674873352,
+              "label": "item_description",
+              "model_confidence": 0.998403960559653
+            },
+            {
+              "text": "24.57",
+              "bbox": [
+                0.7930555555555555,
+                0.7672727272727272,
+                0.9152777777777777,
+                0.7918181818181819
+              ],
+              "confidence": 0.9999396324157714,
+              "label": "item_amount",
+              "model_confidence": 0.9832626264016167
+            },
+            {
+              "text": "TOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.7709090909090909,
+                0.20694444444444443,
+                0.7954545454545454
+              ],
+              "confidence": 0.9981956005096435,
+              "label": "item_description",
+              "model_confidence": 0.8898864237367602
+            },
+            {
+              "text": "THANK YOU.KEEP CREATING.",
+              "bbox": [
+                0.2902777777777778,
+                0.8790909090909091,
+                0.7069444444444445,
+                0.8972727272727272
+              ],
+              "confidence": 0.9769620870550474,
+              "label": "other",
+              "model_confidence": 0.9869221558445099
+            }
+          ],
+          "warnings": [
+            "Total was not extracted; manual review is required.",
+            "Some line items need manual review.",
+            "A receipt total is required before approval.",
+            "Every line item needs an amount before approval."
+          ],
+          "model_version": "cord-line-v1",
+          "confidence": 0.4791159504133487,
+          "needs_review": true,
+          "extraction_mode": "learned_model"
+        }
+      }
+    }
+  ],
+  "audit": {
+    "2b3b8b54-8cbc-5748-b4fc-2cb212d87366": [
+      {
+        "event": "synthetic_sample_created",
+        "revision": 1,
+        "created_at": "2026-10-01T12:00:00+00:00",
+        "after": {
+          "source": "Original image generated by scripts/make_samples.py"
+        }
+      },
+      {
+        "event": "extracted",
+        "revision": 2,
+        "created_at": "2026-10-01T19:59:16.494185+00:00",
+        "after": {
+          "fields": {
+            "subtotal": {
+              "value": "11.50",
+              "confidence": 0.0,
+              "bbox": [
+                0.8138888888888889,
+                0.6654545454545454,
+                0.9180555555555555,
+                0.6872727272727273
+              ],
+              "origin": "text_anchor"
+            },
+            "tax": {
+              "value": "0.92",
+              "confidence": 0.0,
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9194444444444444,
+                0.7336363636363636
+              ],
+              "origin": "text_anchor"
+            },
+            "discount": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "total": {
+              "value": "12.42",
+              "confidence": 0.0,
+              "bbox": [
+                0.7916666666666666,
+                0.7672727272727272,
+                0.9166666666666666,
+                0.7918181818181819
+              ],
+              "origin": "text_anchor"
+            }
+          },
+          "items": [
+            {
+              "description": "OAT LATTE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "4.50",
+              "confidence": 0.9641462432013618
+            },
+            {
+              "description": "BUTTERCROISSANT",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "3.80",
+              "confidence": 0.997584323088328
+            },
+            {
+              "description": "FILTER COFFEE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "3.20",
+              "confidence": 0.9938528308501611
+            }
+          ],
+          "lines": [
+            {
+              "text": "PAPER & BEAN",
+              "bbox": [
+                0.3416666666666667,
+                0.07090909090909091,
+                0.6611111111111111,
+                0.09727272727272727
+              ],
+              "confidence": 0.9636485675970713,
+              "label": "item_description",
+              "model_confidence": 0.9998973756876568
+            },
+            {
+              "text": "SYNTHETIC PORTFOLIO SAMPLE",
+              "bbox": [
+                0.31805555555555554,
+                0.11454545454545455,
+                0.6819444444444445,
+                0.1318181818181818
+              ],
+              "confidence": 0.9742709810917194,
+              "label": "item_description",
+              "model_confidence": 0.9999025119818428
+            },
+            {
+              "text": "010CT 2026",
+              "bbox": [
+                0.08472222222222223,
+                0.17454545454545456,
+                0.2875,
+                0.19545454545454546
+              ],
+              "confidence": 0.9580382645130158,
+              "label": "item_description",
+              "model_confidence": 0.4791159504133487
+            },
+            {
+              "text": "10:24",
+              "bbox": [
+                0.3527777777777778,
+                0.17454545454545456,
+                0.4527777777777778,
+                0.19636363636363635
+              ],
+              "confidence": 0.9992441415786744,
+              "label": "item_unit_price",
+              "model_confidence": 0.5924604086704363
+            },
+            {
+              "text": "RECEIPT # RL-A001",
+              "bbox": [
+                0.08472222222222223,
+                0.2109090909090909,
+                0.3958333333333333,
+                0.2309090909090909
+              ],
+              "confidence": 0.9725284190738902,
+              "label": "item_description",
+              "model_confidence": 0.9142623158159165
+            },
+            {
+              "text": "AMOUNT",
+              "bbox": [
+                0.8097222222222222,
+                0.2872727272727273,
+                0.9194444444444444,
+                0.3118181818181818
+              ],
+              "confidence": 0.9964083731174469,
+              "label": "subtotal",
+              "model_confidence": 0.8556504994417837
+            },
+            {
+              "text": "ITEM",
+              "bbox": [
+                0.08333333333333333,
+                0.2909090909090909,
+                0.1597222222222222,
+                0.31363636363636366
+              ],
+              "confidence": 0.9983023107051849,
+              "label": "item_description",
+              "model_confidence": 0.9815080334262347
+            },
+            {
+              "text": "4.50",
+              "bbox": [
+                0.8319444444444445,
+                0.34,
+                0.9194444444444444,
+                0.3654545454545455
+              ],
+              "confidence": 0.9998229891061783,
+              "label": "item_amount",
+              "model_confidence": 0.9999518253928978
+            },
+            {
+              "text": "OAT LATTE",
+              "bbox": [
+                0.08472222222222223,
+                0.34454545454545454,
+                0.2638888888888889,
+                0.3663636363636364
+              ],
+              "confidence": 0.9641462432013618,
+              "label": "item_description",
+              "model_confidence": 0.9999219877521888
+            },
+            {
+              "text": "3.80",
+              "bbox": [
+                0.8347222222222223,
+                0.3990909090909091,
+                0.9166666666666666,
+                0.4218181818181818
+              ],
+              "confidence": 0.999760314822197,
+              "label": "item_amount",
+              "model_confidence": 0.9999969811524018
+            },
+            {
+              "text": "BUTTERCROISSANT",
+              "bbox": [
+                0.08611111111111111,
+                0.4027272727272727,
+                0.39861111111111114,
+                0.42363636363636364
+              ],
+              "confidence": 0.997584323088328,
+              "label": "item_description",
+              "model_confidence": 0.9997488337522082
+            },
+            {
+              "text": "3.20",
+              "bbox": [
+                0.8319444444444445,
+                0.45545454545454545,
+                0.9194444444444444,
+                0.48
+              ],
+              "confidence": 0.9996006041765213,
+              "label": "item_amount",
+              "model_confidence": 0.9999674958446042
+            },
+            {
+              "text": "FILTER COFFEE",
+              "bbox": [
+                0.08333333333333333,
+                0.4581818181818182,
+                0.3416666666666667,
+                0.4809090909090909
+              ],
+              "confidence": 0.9938528308501611,
+              "label": "item_description",
+              "model_confidence": 0.9997895188391993
+            },
+            {
+              "text": "11.50",
+              "bbox": [
+                0.8138888888888889,
+                0.6654545454545454,
+                0.9180555555555555,
+                0.6872727272727273
+              ],
+              "confidence": 0.9999513387680053,
+              "label": "item_amount",
+              "model_confidence": 0.9999778902455188
+            },
+            {
+              "text": "SUBTOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.6672727272727272,
+                0.24444444444444444,
+                0.6909090909090909
+              ],
+              "confidence": 0.9987717121839523,
+              "label": "item_description",
+              "model_confidence": 0.969392663986146
+            },
+            {
+              "text": "0.92",
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9194444444444444,
+                0.7336363636363636
+              ],
+              "confidence": 0.9998256862163544,
+              "label": "item_amount",
+              "model_confidence": 0.9908969996173511
+            },
+            {
+              "text": "TAX",
+              "bbox": [
+                0.08194444444444444,
+                0.7109090909090909,
+                0.1527777777777778,
+                0.7363636363636363
+              ],
+              "confidence": 0.998794674873352,
+              "label": "item_description",
+              "model_confidence": 0.9973585240252278
+            },
+            {
+              "text": "12.42",
+              "bbox": [
+                0.7916666666666666,
+                0.7672727272727272,
+                0.9166666666666666,
+                0.7918181818181819
+              ],
+              "confidence": 0.999972152709961,
+              "label": "item_amount",
+              "model_confidence": 0.9630130011676644
+            },
+            {
+              "text": "TOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.7709090909090909,
+                0.20694444444444443,
+                0.7954545454545454
+              ],
+              "confidence": 0.9981956005096435,
+              "label": "item_description",
+              "model_confidence": 0.7905521543750942
+            },
+            {
+              "text": "THANK YOU.KEEP CREATING.",
+              "bbox": [
+                0.2902777777777778,
+                0.8790909090909091,
+                0.7069444444444445,
+                0.8972727272727272
+              ],
+              "confidence": 0.9769620870550474,
+              "label": "other",
+              "model_confidence": 0.9869221558445099
+            }
+          ],
+          "warnings": [
+            "Subtotal recovered from explicit text; inspect its highlighted source.",
+            "Tax recovered from explicit text; inspect its highlighted source.",
+            "Total recovered from explicit text; inspect its highlighted source.",
+            "Unsupported descriptions or receipt metadata were removed; verify retained items.",
+            "Assisted extraction requires human review. Text anchors carry no learned confidence."
+          ],
+          "model_version": "cord-line-v1",
+          "confidence": 0.0,
+          "needs_review": true,
+          "extraction_mode": "assisted_text_anchor",
+          "raw_extraction": {
+            "fields": {
+              "subtotal": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "tax": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "discount": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "total": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              }
+            },
+            "items": [
+              {
+                "description": "PAPER & BEAN",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9636485675970713
+              },
+              {
+                "description": "SYNTHETIC PORTFOLIO SAMPLE",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9742709810917194
+              },
+              {
+                "description": "010CT 2026",
+                "quantity": null,
+                "unit_price": "24.00",
+                "amount": null,
+                "confidence": 0.4791159504133487
+              },
+              {
+                "description": "RECEIPT # RL-A001",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9142623158159165
+              },
+              {
+                "description": "ITEM",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9815080334262347
+              },
+              {
+                "description": "OAT LATTE",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "4.50",
+                "confidence": 0.9641462432013618
+              },
+              {
+                "description": "BUTTERCROISSANT",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "3.80",
+                "confidence": 0.997584323088328
+              },
+              {
+                "description": "FILTER COFFEE",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "3.20",
+                "confidence": 0.9938528308501611
+              },
+              {
+                "description": "SUBTOTAL",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "11.50",
+                "confidence": 0.969392663986146
+              },
+              {
+                "description": "TAX",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "0.92",
+                "confidence": 0.9908969996173511
+              },
+              {
+                "description": "TOTAL",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "12.42",
+                "confidence": 0.7905521543750942
+              }
+            ],
+            "lines": [
+              {
+                "text": "PAPER & BEAN",
+                "bbox": [
+                  0.3416666666666667,
+                  0.07090909090909091,
+                  0.6611111111111111,
+                  0.09727272727272727
+                ],
+                "confidence": 0.9636485675970713,
+                "label": "item_description",
+                "model_confidence": 0.9998973756876568
+              },
+              {
+                "text": "SYNTHETIC PORTFOLIO SAMPLE",
+                "bbox": [
+                  0.31805555555555554,
+                  0.11454545454545455,
+                  0.6819444444444445,
+                  0.1318181818181818
+                ],
+                "confidence": 0.9742709810917194,
+                "label": "item_description",
+                "model_confidence": 0.9999025119818428
+              },
+              {
+                "text": "010CT 2026",
+                "bbox": [
+                  0.08472222222222223,
+                  0.17454545454545456,
+                  0.2875,
+                  0.19545454545454546
+                ],
+                "confidence": 0.9580382645130158,
+                "label": "item_description",
+                "model_confidence": 0.4791159504133487
+              },
+              {
+                "text": "10:24",
+                "bbox": [
+                  0.3527777777777778,
+                  0.17454545454545456,
+                  0.4527777777777778,
+                  0.19636363636363635
+                ],
+                "confidence": 0.9992441415786744,
+                "label": "item_unit_price",
+                "model_confidence": 0.5924604086704363
+              },
+              {
+                "text": "RECEIPT # RL-A001",
+                "bbox": [
+                  0.08472222222222223,
+                  0.2109090909090909,
+                  0.3958333333333333,
+                  0.2309090909090909
+                ],
+                "confidence": 0.9725284190738902,
+                "label": "item_description",
+                "model_confidence": 0.9142623158159165
+              },
+              {
+                "text": "AMOUNT",
+                "bbox": [
+                  0.8097222222222222,
+                  0.2872727272727273,
+                  0.9194444444444444,
+                  0.3118181818181818
+                ],
+                "confidence": 0.9964083731174469,
+                "label": "subtotal",
+                "model_confidence": 0.8556504994417837
+              },
+              {
+                "text": "ITEM",
+                "bbox": [
+                  0.08333333333333333,
+                  0.2909090909090909,
+                  0.1597222222222222,
+                  0.31363636363636366
+                ],
+                "confidence": 0.9983023107051849,
+                "label": "item_description",
+                "model_confidence": 0.9815080334262347
+              },
+              {
+                "text": "4.50",
+                "bbox": [
+                  0.8319444444444445,
+                  0.34,
+                  0.9194444444444444,
+                  0.3654545454545455
+                ],
+                "confidence": 0.9998229891061783,
+                "label": "item_amount",
+                "model_confidence": 0.9999518253928978
+              },
+              {
+                "text": "OAT LATTE",
+                "bbox": [
+                  0.08472222222222223,
+                  0.34454545454545454,
+                  0.2638888888888889,
+                  0.3663636363636364
+                ],
+                "confidence": 0.9641462432013618,
+                "label": "item_description",
+                "model_confidence": 0.9999219877521888
+              },
+              {
+                "text": "3.80",
+                "bbox": [
+                  0.8347222222222223,
+                  0.3990909090909091,
+                  0.9166666666666666,
+                  0.4218181818181818
+                ],
+                "confidence": 0.999760314822197,
+                "label": "item_amount",
+                "model_confidence": 0.9999969811524018
+              },
+              {
+                "text": "BUTTERCROISSANT",
+                "bbox": [
+                  0.08611111111111111,
+                  0.4027272727272727,
+                  0.39861111111111114,
+                  0.42363636363636364
+                ],
+                "confidence": 0.997584323088328,
+                "label": "item_description",
+                "model_confidence": 0.9997488337522082
+              },
+              {
+                "text": "3.20",
+                "bbox": [
+                  0.8319444444444445,
+                  0.45545454545454545,
+                  0.9194444444444444,
+                  0.48
+                ],
+                "confidence": 0.9996006041765213,
+                "label": "item_amount",
+                "model_confidence": 0.9999674958446042
+              },
+              {
+                "text": "FILTER COFFEE",
+                "bbox": [
+                  0.08333333333333333,
+                  0.4581818181818182,
+                  0.3416666666666667,
+                  0.4809090909090909
+                ],
+                "confidence": 0.9938528308501611,
+                "label": "item_description",
+                "model_confidence": 0.9997895188391993
+              },
+              {
+                "text": "11.50",
+                "bbox": [
+                  0.8138888888888889,
+                  0.6654545454545454,
+                  0.9180555555555555,
+                  0.6872727272727273
+                ],
+                "confidence": 0.9999513387680053,
+                "label": "item_amount",
+                "model_confidence": 0.9999778902455188
+              },
+              {
+                "text": "SUBTOTAL",
+                "bbox": [
+                  0.08333333333333333,
+                  0.6672727272727272,
+                  0.24444444444444444,
+                  0.6909090909090909
+                ],
+                "confidence": 0.9987717121839523,
+                "label": "item_description",
+                "model_confidence": 0.969392663986146
+              },
+              {
+                "text": "0.92",
+                "bbox": [
+                  0.8319444444444445,
+                  0.7090909090909091,
+                  0.9194444444444444,
+                  0.7336363636363636
+                ],
+                "confidence": 0.9998256862163544,
+                "label": "item_amount",
+                "model_confidence": 0.9908969996173511
+              },
+              {
+                "text": "TAX",
+                "bbox": [
+                  0.08194444444444444,
+                  0.7109090909090909,
+                  0.1527777777777778,
+                  0.7363636363636363
+                ],
+                "confidence": 0.998794674873352,
+                "label": "item_description",
+                "model_confidence": 0.9973585240252278
+              },
+              {
+                "text": "12.42",
+                "bbox": [
+                  0.7916666666666666,
+                  0.7672727272727272,
+                  0.9166666666666666,
+                  0.7918181818181819
+                ],
+                "confidence": 0.999972152709961,
+                "label": "item_amount",
+                "model_confidence": 0.9630130011676644
+              },
+              {
+                "text": "TOTAL",
+                "bbox": [
+                  0.08333333333333333,
+                  0.7709090909090909,
+                  0.20694444444444443,
+                  0.7954545454545454
+                ],
+                "confidence": 0.9981956005096435,
+                "label": "item_description",
+                "model_confidence": 0.7905521543750942
+              },
+              {
+                "text": "THANK YOU.KEEP CREATING.",
+                "bbox": [
+                  0.2902777777777778,
+                  0.8790909090909091,
+                  0.7069444444444445,
+                  0.8972727272727272
+                ],
+                "confidence": 0.9769620870550474,
+                "label": "other",
+                "model_confidence": 0.9869221558445099
+              }
+            ],
+            "warnings": [
+              "Total was not extracted; manual review is required.",
+              "Some line items need manual review.",
+              "A receipt total is required before approval.",
+              "Every line item needs an amount before approval."
+            ],
+            "model_version": "cord-line-v1",
+            "confidence": 0.4791159504133487,
+            "needs_review": true,
+            "extraction_mode": "learned_model"
+          }
+        }
+      }
+    ],
+    "99c89ede-7ded-59e4-a954-bf182a896149": [
+      {
+        "event": "synthetic_sample_created",
+        "revision": 1,
+        "created_at": "2026-10-01T12:00:00+00:00",
+        "after": {
+          "source": "Original image generated by scripts/make_samples.py"
+        }
+      },
+      {
+        "event": "extracted",
+        "revision": 2,
+        "created_at": "2026-10-01T19:59:17.385077+00:00",
+        "after": {
+          "fields": {
+            "subtotal": {
+              "value": "23.00",
+              "confidence": 0.0,
+              "bbox": [
+                0.8152777777777778,
+                0.6654545454545454,
+                0.9180555555555555,
+                0.6872727272727273
+              ],
+              "origin": "text_anchor"
+            },
+            "tax": {
+              "value": "1.84",
+              "confidence": 0.0,
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9194444444444444,
+                0.7336363636363636
+              ],
+              "origin": "text_anchor"
+            },
+            "discount": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "total": {
+              "value": "24.84",
+              "confidence": 0.0,
+              "bbox": [
+                0.7930555555555555,
+                0.7672727272727272,
+                0.9180555555555555,
+                0.7918181818181819
+              ],
+              "origin": "text_anchor"
+            }
+          },
+          "items": [
+            {
+              "description": "SOURDOUGH LOAF",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "5.20",
+              "confidence": 0.9639062327998025
+            },
+            {
+              "description": "OLIVE OIL",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "9.90",
+              "confidence": 0.9523295826382108
+            },
+            {
+              "description": "SEASONAL APPLES",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "4.40",
+              "confidence": 0.9861976265907287
+            },
+            {
+              "description": "OAT MILK",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "3.50",
+              "confidence": 0.9818012937903404
+            }
+          ],
+          "lines": [
+            {
+              "text": "THE GREEN MARKET",
+              "bbox": [
+                0.2902777777777778,
+                0.07090909090909091,
+                0.7125,
+                0.09454545454545454
+              ],
+              "confidence": 0.9463316723704338,
+              "label": "item_description",
+              "model_confidence": 0.9998679676440375
+            },
+            {
+              "text": "SYNTHETIC PORTFOLIO SAMPLE",
+              "bbox": [
+                0.3194444444444444,
+                0.11454545454545455,
+                0.6819444444444445,
+                0.1318181818181818
+              ],
+              "confidence": 0.9838522718502924,
+              "label": "item_description",
+              "model_confidence": 0.999921815340998
+            },
+            {
+              "text": "01 0CT 2026",
+              "bbox": [
+                0.08472222222222223,
+                0.17454545454545456,
+                0.2875,
+                0.19545454545454546
+              ],
+              "confidence": 0.9350031993605874,
+              "label": "item_description",
+              "model_confidence": 0.6103612473483345
+            },
+            {
+              "text": "10:24",
+              "bbox": [
+                0.3527777777777778,
+                0.17454545454545456,
+                0.4527777777777778,
+                0.19636363636363635
+              ],
+              "confidence": 0.9992441415786744,
+              "label": "item_unit_price",
+              "model_confidence": 0.5871482108188615
+            },
+            {
+              "text": "RECEIPT # RL-B001",
+              "bbox": [
+                0.08472222222222223,
+                0.2109090909090909,
+                0.3958333333333333,
+                0.2309090909090909
+              ],
+              "confidence": 0.9276893805055058,
+              "label": "item_description",
+              "model_confidence": 0.9191638196943493
+            },
+            {
+              "text": "AMOUNT",
+              "bbox": [
+                0.8097222222222222,
+                0.2872727272727273,
+                0.9194444444444444,
+                0.3118181818181818
+              ],
+              "confidence": 0.9964083731174469,
+              "label": "subtotal",
+              "model_confidence": 0.8463019721860332
+            },
+            {
+              "text": "ITEM",
+              "bbox": [
+                0.08333333333333333,
+                0.2909090909090909,
+                0.1597222222222222,
+                0.31363636363636366
+              ],
+              "confidence": 0.9983023107051849,
+              "label": "item_description",
+              "model_confidence": 0.9866624599454195
+            },
+            {
+              "text": "5.20",
+              "bbox": [
+                0.8319444444444445,
+                0.34,
+                0.9194444444444444,
+                0.3663636363636364
+              ],
+              "confidence": 0.9997454732656479,
+              "label": "item_amount",
+              "model_confidence": 0.9998881133455876
+            },
+            {
+              "text": "SOURDOUGH LOAF",
+              "bbox": [
+                0.08472222222222223,
+                0.34363636363636363,
+                0.3611111111111111,
+                0.36727272727272725
+              ],
+              "confidence": 0.9639062327998025,
+              "label": "item_description",
+              "model_confidence": 0.9999388230274306
+            },
+            {
+              "text": "9.90",
+              "bbox": [
+                0.8333333333333334,
+                0.3990909090909091,
+                0.9166666666666666,
+                0.4218181818181818
+              ],
+              "confidence": 0.9997788369655609,
+              "label": "item_amount",
+              "model_confidence": 0.9999881702268971
+            },
+            {
+              "text": "OLIVE OIL",
+              "bbox": [
+                0.08333333333333333,
+                0.4009090909090909,
+                0.2638888888888889,
+                0.4254545454545455
+              ],
+              "confidence": 0.9523295826382108,
+              "label": "item_description",
+              "model_confidence": 0.9998849812561211
+            },
+            {
+              "text": "4.40",
+              "bbox": [
+                0.8305555555555556,
+                0.4536363636363636,
+                0.9166666666666666,
+                0.4781818181818182
+              ],
+              "confidence": 0.9998387396335602,
+              "label": "item_amount",
+              "model_confidence": 0.9999859806651847
+            },
+            {
+              "text": "SEASONAL APPLES",
+              "bbox": [
+                0.08472222222222223,
+                0.4590909090909091,
+                0.38055555555555554,
+                0.4818181818181818
+              ],
+              "confidence": 0.9861976265907287,
+              "label": "item_description",
+              "model_confidence": 0.99950157829768
+            },
+            {
+              "text": "3.50",
+              "bbox": [
+                0.8333333333333334,
+                0.5127272727272727,
+                0.9194444444444444,
+                0.5372727272727272
+              ],
+              "confidence": 0.9997861832380295,
+              "label": "item_amount",
+              "model_confidence": 0.999973582505943
+            },
+            {
+              "text": "OAT MILK",
+              "bbox": [
+                0.08333333333333333,
+                0.5154545454545455,
+                0.24722222222222223,
+                0.5390909090909091
+              ],
+              "confidence": 0.9818012937903404,
+              "label": "item_description",
+              "model_confidence": 0.9995184169367757
+            },
+            {
+              "text": "23.00",
+              "bbox": [
+                0.8152777777777778,
+                0.6654545454545454,
+                0.9180555555555555,
+                0.6872727272727273
+              ],
+              "confidence": 0.9997849702835083,
+              "label": "item_amount",
+              "model_confidence": 0.9999031427317643
+            },
+            {
+              "text": "SUBTOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.6672727272727272,
+                0.24305555555555555,
+                0.6909090909090909
+              ],
+              "confidence": 0.9982233420014381,
+              "label": "item_description",
+              "model_confidence": 0.9911078130542201
+            },
+            {
+              "text": "1.84",
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9194444444444444,
+                0.7336363636363636
+              ],
+              "confidence": 0.9999505579471588,
+              "label": "item_amount",
+              "model_confidence": 0.9933921262208171
+            },
+            {
+              "text": "TAX",
+              "bbox": [
+                0.08194444444444444,
+                0.7109090909090909,
+                0.1527777777777778,
+                0.7363636363636363
+              ],
+              "confidence": 0.998794674873352,
+              "label": "item_description",
+              "model_confidence": 0.9982637139523844
+            },
+            {
+              "text": "24.84",
+              "bbox": [
+                0.7930555555555555,
+                0.7672727272727272,
+                0.9180555555555555,
+                0.7918181818181819
+              ],
+              "confidence": 0.9999817848205567,
+              "label": "item_amount",
+              "model_confidence": 0.9826340403548093
+            },
+            {
+              "text": "TOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.7709090909090909,
+                0.20694444444444443,
+                0.7954545454545454
+              ],
+              "confidence": 0.9981956005096435,
+              "label": "item_description",
+              "model_confidence": 0.8940922429853304
+            },
+            {
+              "text": "THANK YOU.KEEP CREATING.",
+              "bbox": [
+                0.2902777777777778,
+                0.8790909090909091,
+                0.7069444444444445,
+                0.8972727272727272
+              ],
+              "confidence": 0.9769620870550474,
+              "label": "other",
+              "model_confidence": 0.987231995380721
+            }
+          ],
+          "warnings": [
+            "Subtotal recovered from explicit text; inspect its highlighted source.",
+            "Tax recovered from explicit text; inspect its highlighted source.",
+            "Total recovered from explicit text; inspect its highlighted source.",
+            "Unsupported descriptions or receipt metadata were removed; verify retained items.",
+            "Assisted extraction requires human review. Text anchors carry no learned confidence."
+          ],
+          "model_version": "cord-line-v1",
+          "confidence": 0.0,
+          "needs_review": true,
+          "extraction_mode": "assisted_text_anchor",
+          "raw_extraction": {
+            "fields": {
+              "subtotal": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "tax": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "discount": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "total": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              }
+            },
+            "items": [
+              {
+                "description": "THE GREEN MARKET",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9463316723704338
+              },
+              {
+                "description": "SYNTHETIC PORTFOLIO SAMPLE",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9838522718502924
+              },
+              {
+                "description": "01 0CT 2026",
+                "quantity": null,
+                "unit_price": "24.00",
+                "amount": null,
+                "confidence": 0.5871482108188615
+              },
+              {
+                "description": "RECEIPT # RL-B001",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9191638196943493
+              },
+              {
+                "description": "ITEM",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9866624599454195
+              },
+              {
+                "description": "SOURDOUGH LOAF",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "5.20",
+                "confidence": 0.9639062327998025
+              },
+              {
+                "description": "OLIVE OIL",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "9.90",
+                "confidence": 0.9523295826382108
+              },
+              {
+                "description": "SEASONAL APPLES",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "4.40",
+                "confidence": 0.9861976265907287
+              },
+              {
+                "description": "OAT MILK",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "3.50",
+                "confidence": 0.9818012937903404
+              },
+              {
+                "description": "SUBTOTAL",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "23.00",
+                "confidence": 0.9911078130542201
+              },
+              {
+                "description": "TAX",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "1.84",
+                "confidence": 0.9933921262208171
+              },
+              {
+                "description": "TOTAL",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "24.84",
+                "confidence": 0.8940922429853304
+              }
+            ],
+            "lines": [
+              {
+                "text": "THE GREEN MARKET",
+                "bbox": [
+                  0.2902777777777778,
+                  0.07090909090909091,
+                  0.7125,
+                  0.09454545454545454
+                ],
+                "confidence": 0.9463316723704338,
+                "label": "item_description",
+                "model_confidence": 0.9998679676440375
+              },
+              {
+                "text": "SYNTHETIC PORTFOLIO SAMPLE",
+                "bbox": [
+                  0.3194444444444444,
+                  0.11454545454545455,
+                  0.6819444444444445,
+                  0.1318181818181818
+                ],
+                "confidence": 0.9838522718502924,
+                "label": "item_description",
+                "model_confidence": 0.999921815340998
+              },
+              {
+                "text": "01 0CT 2026",
+                "bbox": [
+                  0.08472222222222223,
+                  0.17454545454545456,
+                  0.2875,
+                  0.19545454545454546
+                ],
+                "confidence": 0.9350031993605874,
+                "label": "item_description",
+                "model_confidence": 0.6103612473483345
+              },
+              {
+                "text": "10:24",
+                "bbox": [
+                  0.3527777777777778,
+                  0.17454545454545456,
+                  0.4527777777777778,
+                  0.19636363636363635
+                ],
+                "confidence": 0.9992441415786744,
+                "label": "item_unit_price",
+                "model_confidence": 0.5871482108188615
+              },
+              {
+                "text": "RECEIPT # RL-B001",
+                "bbox": [
+                  0.08472222222222223,
+                  0.2109090909090909,
+                  0.3958333333333333,
+                  0.2309090909090909
+                ],
+                "confidence": 0.9276893805055058,
+                "label": "item_description",
+                "model_confidence": 0.9191638196943493
+              },
+              {
+                "text": "AMOUNT",
+                "bbox": [
+                  0.8097222222222222,
+                  0.2872727272727273,
+                  0.9194444444444444,
+                  0.3118181818181818
+                ],
+                "confidence": 0.9964083731174469,
+                "label": "subtotal",
+                "model_confidence": 0.8463019721860332
+              },
+              {
+                "text": "ITEM",
+                "bbox": [
+                  0.08333333333333333,
+                  0.2909090909090909,
+                  0.1597222222222222,
+                  0.31363636363636366
+                ],
+                "confidence": 0.9983023107051849,
+                "label": "item_description",
+                "model_confidence": 0.9866624599454195
+              },
+              {
+                "text": "5.20",
+                "bbox": [
+                  0.8319444444444445,
+                  0.34,
+                  0.9194444444444444,
+                  0.3663636363636364
+                ],
+                "confidence": 0.9997454732656479,
+                "label": "item_amount",
+                "model_confidence": 0.9998881133455876
+              },
+              {
+                "text": "SOURDOUGH LOAF",
+                "bbox": [
+                  0.08472222222222223,
+                  0.34363636363636363,
+                  0.3611111111111111,
+                  0.36727272727272725
+                ],
+                "confidence": 0.9639062327998025,
+                "label": "item_description",
+                "model_confidence": 0.9999388230274306
+              },
+              {
+                "text": "9.90",
+                "bbox": [
+                  0.8333333333333334,
+                  0.3990909090909091,
+                  0.9166666666666666,
+                  0.4218181818181818
+                ],
+                "confidence": 0.9997788369655609,
+                "label": "item_amount",
+                "model_confidence": 0.9999881702268971
+              },
+              {
+                "text": "OLIVE OIL",
+                "bbox": [
+                  0.08333333333333333,
+                  0.4009090909090909,
+                  0.2638888888888889,
+                  0.4254545454545455
+                ],
+                "confidence": 0.9523295826382108,
+                "label": "item_description",
+                "model_confidence": 0.9998849812561211
+              },
+              {
+                "text": "4.40",
+                "bbox": [
+                  0.8305555555555556,
+                  0.4536363636363636,
+                  0.9166666666666666,
+                  0.4781818181818182
+                ],
+                "confidence": 0.9998387396335602,
+                "label": "item_amount",
+                "model_confidence": 0.9999859806651847
+              },
+              {
+                "text": "SEASONAL APPLES",
+                "bbox": [
+                  0.08472222222222223,
+                  0.4590909090909091,
+                  0.38055555555555554,
+                  0.4818181818181818
+                ],
+                "confidence": 0.9861976265907287,
+                "label": "item_description",
+                "model_confidence": 0.99950157829768
+              },
+              {
+                "text": "3.50",
+                "bbox": [
+                  0.8333333333333334,
+                  0.5127272727272727,
+                  0.9194444444444444,
+                  0.5372727272727272
+                ],
+                "confidence": 0.9997861832380295,
+                "label": "item_amount",
+                "model_confidence": 0.999973582505943
+              },
+              {
+                "text": "OAT MILK",
+                "bbox": [
+                  0.08333333333333333,
+                  0.5154545454545455,
+                  0.24722222222222223,
+                  0.5390909090909091
+                ],
+                "confidence": 0.9818012937903404,
+                "label": "item_description",
+                "model_confidence": 0.9995184169367757
+              },
+              {
+                "text": "23.00",
+                "bbox": [
+                  0.8152777777777778,
+                  0.6654545454545454,
+                  0.9180555555555555,
+                  0.6872727272727273
+                ],
+                "confidence": 0.9997849702835083,
+                "label": "item_amount",
+                "model_confidence": 0.9999031427317643
+              },
+              {
+                "text": "SUBTOTAL",
+                "bbox": [
+                  0.08333333333333333,
+                  0.6672727272727272,
+                  0.24305555555555555,
+                  0.6909090909090909
+                ],
+                "confidence": 0.9982233420014381,
+                "label": "item_description",
+                "model_confidence": 0.9911078130542201
+              },
+              {
+                "text": "1.84",
+                "bbox": [
+                  0.8319444444444445,
+                  0.7090909090909091,
+                  0.9194444444444444,
+                  0.7336363636363636
+                ],
+                "confidence": 0.9999505579471588,
+                "label": "item_amount",
+                "model_confidence": 0.9933921262208171
+              },
+              {
+                "text": "TAX",
+                "bbox": [
+                  0.08194444444444444,
+                  0.7109090909090909,
+                  0.1527777777777778,
+                  0.7363636363636363
+                ],
+                "confidence": 0.998794674873352,
+                "label": "item_description",
+                "model_confidence": 0.9982637139523844
+              },
+              {
+                "text": "24.84",
+                "bbox": [
+                  0.7930555555555555,
+                  0.7672727272727272,
+                  0.9180555555555555,
+                  0.7918181818181819
+                ],
+                "confidence": 0.9999817848205567,
+                "label": "item_amount",
+                "model_confidence": 0.9826340403548093
+              },
+              {
+                "text": "TOTAL",
+                "bbox": [
+                  0.08333333333333333,
+                  0.7709090909090909,
+                  0.20694444444444443,
+                  0.7954545454545454
+                ],
+                "confidence": 0.9981956005096435,
+                "label": "item_description",
+                "model_confidence": 0.8940922429853304
+              },
+              {
+                "text": "THANK YOU.KEEP CREATING.",
+                "bbox": [
+                  0.2902777777777778,
+                  0.8790909090909091,
+                  0.7069444444444445,
+                  0.8972727272727272
+                ],
+                "confidence": 0.9769620870550474,
+                "label": "other",
+                "model_confidence": 0.987231995380721
+              }
+            ],
+            "warnings": [
+              "Total was not extracted; manual review is required.",
+              "Some line items need manual review.",
+              "A receipt total is required before approval.",
+              "Every line item needs an amount before approval."
+            ],
+            "model_version": "cord-line-v1",
+            "confidence": 0.5871482108188615,
+            "needs_review": true,
+            "extraction_mode": "learned_model"
+          }
+        }
+      }
+    ],
+    "2bb8dfd9-1161-5cd3-b17c-da3b95ddd193": [
+      {
+        "event": "synthetic_sample_created",
+        "revision": 1,
+        "created_at": "2026-10-01T12:00:00+00:00",
+        "after": {
+          "source": "Original image generated by scripts/make_samples.py"
+        }
+      },
+      {
+        "event": "extracted",
+        "revision": 2,
+        "created_at": "2026-10-01T19:59:17.807535+00:00",
+        "after": {
+          "fields": {
+            "subtotal": {
+              "value": "22.75",
+              "confidence": 0.0,
+              "bbox": [
+                0.8138888888888889,
+                0.6645454545454546,
+                0.9180555555555555,
+                0.6890909090909091
+              ],
+              "origin": "text_anchor"
+            },
+            "tax": {
+              "value": "1.82",
+              "confidence": 0.0,
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9180555555555555,
+                0.7336363636363636
+              ],
+              "origin": "text_anchor"
+            },
+            "discount": {
+              "value": null,
+              "confidence": 0.0,
+              "bbox": null,
+              "origin": "learned_model"
+            },
+            "total": {
+              "value": "24.57",
+              "confidence": 0.0,
+              "bbox": [
+                0.7930555555555555,
+                0.7672727272727272,
+                0.9152777777777777,
+                0.7918181818181819
+              ],
+              "origin": "text_anchor"
+            }
+          },
+          "items": [
+            {
+              "description": "SKETCHBOOK",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "12.00",
+              "confidence": 0.99917271733284
+            },
+            {
+              "description": "GRAPHITE PENCILS",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "6.50",
+              "confidence": 0.9818777404725552
+            },
+            {
+              "description": "PAPER TAPE",
+              "quantity": null,
+              "unit_price": null,
+              "amount": "4.25",
+              "confidence": 0.9523536503314972
+            }
+          ],
+          "lines": [
+            {
+              "text": "STUDIO SUPPLY",
+              "bbox": [
+                0.32916666666666666,
+                0.07,
+                0.6708333333333333,
+                0.09363636363636364
+              ],
+              "confidence": 0.975544273853302,
+              "label": "item_description",
+              "model_confidence": 0.9995769788646535
+            },
+            {
+              "text": "SYNTHETIC PORTFOLIO SAMPLE",
+              "bbox": [
+                0.31805555555555554,
+                0.11454545454545455,
+                0.6819444444444445,
+                0.1318181818181818
+              ],
+              "confidence": 0.9742709810917194,
+              "label": "item_description",
+              "model_confidence": 0.9998825722103389
+            },
+            {
+              "text": "010CT 2026",
+              "bbox": [
+                0.08472222222222223,
+                0.17454545454545456,
+                0.2875,
+                0.19545454545454546
+              ],
+              "confidence": 0.9580382645130158,
+              "label": "item_description",
+              "model_confidence": 0.4791159504133487
+            },
+            {
+              "text": "10:24",
+              "bbox": [
+                0.3527777777777778,
+                0.17454545454545456,
+                0.4527777777777778,
+                0.19636363636363635
+              ],
+              "confidence": 0.9992441415786744,
+              "label": "item_unit_price",
+              "model_confidence": 0.6129008968946807
+            },
+            {
+              "text": "RECEIPT # RL-C001",
+              "bbox": [
+                0.08472222222222223,
+                0.2109090909090909,
+                0.3958333333333333,
+                0.2309090909090909
+              ],
+              "confidence": 0.9731005044544444,
+              "label": "item_description",
+              "model_confidence": 0.9123559197191625
+            },
+            {
+              "text": "AMOUNT",
+              "bbox": [
+                0.8111111111111111,
+                0.2881818181818182,
+                0.9180555555555555,
+                0.31
+              ],
+              "confidence": 0.9956458409627279,
+              "label": "subtotal",
+              "model_confidence": 0.8526084545678759
+            },
+            {
+              "text": "ITEM",
+              "bbox": [
+                0.08333333333333333,
+                0.2909090909090909,
+                0.1597222222222222,
+                0.31363636363636366
+              ],
+              "confidence": 0.9983023107051849,
+              "label": "item_description",
+              "model_confidence": 0.9829597645436409
+            },
+            {
+              "text": "12.00",
+              "bbox": [
+                0.8138888888888889,
+                0.3418181818181818,
+                0.9166666666666666,
+                0.36454545454545456
+              ],
+              "confidence": 0.9998017430305481,
+              "label": "item_amount",
+              "model_confidence": 0.9997081167522232
+            },
+            {
+              "text": "SKETCHBOOK",
+              "bbox": [
+                0.08611111111111111,
+                0.34454545454545454,
+                0.28194444444444444,
+                0.3663636363636364
+              ],
+              "confidence": 0.99917271733284,
+              "label": "item_description",
+              "model_confidence": 0.9999403891867182
+            },
+            {
+              "text": "6.50",
+              "bbox": [
+                0.8333333333333334,
+                0.3972727272727273,
+                0.9180555555555555,
+                0.42272727272727273
+              ],
+              "confidence": 0.9998778253793716,
+              "label": "item_amount",
+              "model_confidence": 0.9999836340429492
+            },
+            {
+              "text": "GRAPHITE PENCILS",
+              "bbox": [
+                0.08611111111111111,
+                0.4027272727272727,
+                0.39861111111111114,
+                0.42363636363636364
+              ],
+              "confidence": 0.9818777404725552,
+              "label": "item_description",
+              "model_confidence": 0.9998603397028175
+            },
+            {
+              "text": "4.25",
+              "bbox": [
+                0.8291666666666667,
+                0.4527272727272727,
+                0.9194444444444444,
+                0.4809090909090909
+              ],
+              "confidence": 0.9998962432146072,
+              "label": "item_amount",
+              "model_confidence": 0.9999758167917896
+            },
+            {
+              "text": "PAPER TAPE",
+              "bbox": [
+                0.08333333333333333,
+                0.4590909090909091,
+                0.28194444444444444,
+                0.48
+              ],
+              "confidence": 0.9523536503314972,
+              "label": "item_description",
+              "model_confidence": 0.9999249323692576
+            },
+            {
+              "text": "22.75",
+              "bbox": [
+                0.8138888888888889,
+                0.6645454545454546,
+                0.9180555555555555,
+                0.6890909090909091
+              ],
+              "confidence": 0.9999542474746704,
+              "label": "item_amount",
+              "model_confidence": 0.9999391859386935
+            },
+            {
+              "text": "SUBTOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.6672727272727272,
+                0.24444444444444444,
+                0.6909090909090909
+              ],
+              "confidence": 0.9987717121839523,
+              "label": "item_description",
+              "model_confidence": 0.9909718707491815
+            },
+            {
+              "text": "1.82",
+              "bbox": [
+                0.8319444444444445,
+                0.7090909090909091,
+                0.9180555555555555,
+                0.7336363636363636
+              ],
+              "confidence": 0.9999209046363831,
+              "label": "item_amount",
+              "model_confidence": 0.9900299333649225
+            },
+            {
+              "text": "TAX",
+              "bbox": [
+                0.08194444444444444,
+                0.7109090909090909,
+                0.1527777777777778,
+                0.7363636363636363
+              ],
+              "confidence": 0.998794674873352,
+              "label": "item_description",
+              "model_confidence": 0.998403960559653
+            },
+            {
+              "text": "24.57",
+              "bbox": [
+                0.7930555555555555,
+                0.7672727272727272,
+                0.9152777777777777,
+                0.7918181818181819
+              ],
+              "confidence": 0.9999396324157714,
+              "label": "item_amount",
+              "model_confidence": 0.9832626264016167
+            },
+            {
+              "text": "TOTAL",
+              "bbox": [
+                0.08333333333333333,
+                0.7709090909090909,
+                0.20694444444444443,
+                0.7954545454545454
+              ],
+              "confidence": 0.9981956005096435,
+              "label": "item_description",
+              "model_confidence": 0.8898864237367602
+            },
+            {
+              "text": "THANK YOU.KEEP CREATING.",
+              "bbox": [
+                0.2902777777777778,
+                0.8790909090909091,
+                0.7069444444444445,
+                0.8972727272727272
+              ],
+              "confidence": 0.9769620870550474,
+              "label": "other",
+              "model_confidence": 0.9869221558445099
+            }
+          ],
+          "warnings": [
+            "Subtotal recovered from explicit text; inspect its highlighted source.",
+            "Tax recovered from explicit text; inspect its highlighted source.",
+            "Total recovered from explicit text; inspect its highlighted source.",
+            "Unsupported descriptions or receipt metadata were removed; verify retained items.",
+            "Assisted extraction requires human review. Text anchors carry no learned confidence."
+          ],
+          "model_version": "cord-line-v1",
+          "confidence": 0.0,
+          "needs_review": true,
+          "extraction_mode": "assisted_text_anchor",
+          "raw_extraction": {
+            "fields": {
+              "subtotal": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "tax": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "discount": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              },
+              "total": {
+                "value": null,
+                "confidence": 0.0,
+                "bbox": null,
+                "origin": "learned_model"
+              }
+            },
+            "items": [
+              {
+                "description": "STUDIO SUPPLY",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.975544273853302
+              },
+              {
+                "description": "SYNTHETIC PORTFOLIO SAMPLE",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9742709810917194
+              },
+              {
+                "description": "010CT 2026",
+                "quantity": null,
+                "unit_price": "24.00",
+                "amount": null,
+                "confidence": 0.4791159504133487
+              },
+              {
+                "description": "RECEIPT # RL-C001",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9123559197191625
+              },
+              {
+                "description": "ITEM",
+                "quantity": null,
+                "unit_price": null,
+                "amount": null,
+                "confidence": 0.9829597645436409
+              },
+              {
+                "description": "SKETCHBOOK",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "12.00",
+                "confidence": 0.99917271733284
+              },
+              {
+                "description": "GRAPHITE PENCILS",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "6.50",
+                "confidence": 0.9818777404725552
+              },
+              {
+                "description": "PAPER TAPE",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "4.25",
+                "confidence": 0.9523536503314972
+              },
+              {
+                "description": "SUBTOTAL",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "22.75",
+                "confidence": 0.9909718707491815
+              },
+              {
+                "description": "TAX",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "1.82",
+                "confidence": 0.9900299333649225
+              },
+              {
+                "description": "TOTAL",
+                "quantity": null,
+                "unit_price": null,
+                "amount": "24.57",
+                "confidence": 0.8898864237367602
+              }
+            ],
+            "lines": [
+              {
+                "text": "STUDIO SUPPLY",
+                "bbox": [
+                  0.32916666666666666,
+                  0.07,
+                  0.6708333333333333,
+                  0.09363636363636364
+                ],
+                "confidence": 0.975544273853302,
+                "label": "item_description",
+                "model_confidence": 0.9995769788646535
+              },
+              {
+                "text": "SYNTHETIC PORTFOLIO SAMPLE",
+                "bbox": [
+                  0.31805555555555554,
+                  0.11454545454545455,
+                  0.6819444444444445,
+                  0.1318181818181818
+                ],
+                "confidence": 0.9742709810917194,
+                "label": "item_description",
+                "model_confidence": 0.9998825722103389
+              },
+              {
+                "text": "010CT 2026",
+                "bbox": [
+                  0.08472222222222223,
+                  0.17454545454545456,
+                  0.2875,
+                  0.19545454545454546
+                ],
+                "confidence": 0.9580382645130158,
+                "label": "item_description",
+                "model_confidence": 0.4791159504133487
+              },
+              {
+                "text": "10:24",
+                "bbox": [
+                  0.3527777777777778,
+                  0.17454545454545456,
+                  0.4527777777777778,
+                  0.19636363636363635
+                ],
+                "confidence": 0.9992441415786744,
+                "label": "item_unit_price",
+                "model_confidence": 0.6129008968946807
+              },
+              {
+                "text": "RECEIPT # RL-C001",
+                "bbox": [
+                  0.08472222222222223,
+                  0.2109090909090909,
+                  0.3958333333333333,
+                  0.2309090909090909
+                ],
+                "confidence": 0.9731005044544444,
+                "label": "item_description",
+                "model_confidence": 0.9123559197191625
+              },
+              {
+                "text": "AMOUNT",
+                "bbox": [
+                  0.8111111111111111,
+                  0.2881818181818182,
+                  0.9180555555555555,
+                  0.31
+                ],
+                "confidence": 0.9956458409627279,
+                "label": "subtotal",
+                "model_confidence": 0.8526084545678759
+              },
+              {
+                "text": "ITEM",
+                "bbox": [
+                  0.08333333333333333,
+                  0.2909090909090909,
+                  0.1597222222222222,
+                  0.31363636363636366
+                ],
+                "confidence": 0.9983023107051849,
+                "label": "item_description",
+                "model_confidence": 0.9829597645436409
+              },
+              {
+                "text": "12.00",
+                "bbox": [
+                  0.8138888888888889,
+                  0.3418181818181818,
+                  0.9166666666666666,
+                  0.36454545454545456
+                ],
+                "confidence": 0.9998017430305481,
+                "label": "item_amount",
+                "model_confidence": 0.9997081167522232
+              },
+              {
+                "text": "SKETCHBOOK",
+                "bbox": [
+                  0.08611111111111111,
+                  0.34454545454545454,
+                  0.28194444444444444,
+                  0.3663636363636364
+                ],
+                "confidence": 0.99917271733284,
+                "label": "item_description",
+                "model_confidence": 0.9999403891867182
+              },
+              {
+                "text": "6.50",
+                "bbox": [
+                  0.8333333333333334,
+                  0.3972727272727273,
+                  0.9180555555555555,
+                  0.42272727272727273
+                ],
+                "confidence": 0.9998778253793716,
+                "label": "item_amount",
+                "model_confidence": 0.9999836340429492
+              },
+              {
+                "text": "GRAPHITE PENCILS",
+                "bbox": [
+                  0.08611111111111111,
+                  0.4027272727272727,
+                  0.39861111111111114,
+                  0.42363636363636364
+                ],
+                "confidence": 0.9818777404725552,
+                "label": "item_description",
+                "model_confidence": 0.9998603397028175
+              },
+              {
+                "text": "4.25",
+                "bbox": [
+                  0.8291666666666667,
+                  0.4527272727272727,
+                  0.9194444444444444,
+                  0.4809090909090909
+                ],
+                "confidence": 0.9998962432146072,
+                "label": "item_amount",
+                "model_confidence": 0.9999758167917896
+              },
+              {
+                "text": "PAPER TAPE",
+                "bbox": [
+                  0.08333333333333333,
+                  0.4590909090909091,
+                  0.28194444444444444,
+                  0.48
+                ],
+                "confidence": 0.9523536503314972,
+                "label": "item_description",
+                "model_confidence": 0.9999249323692576
+              },
+              {
+                "text": "22.75",
+                "bbox": [
+                  0.8138888888888889,
+                  0.6645454545454546,
+                  0.9180555555555555,
+                  0.6890909090909091
+                ],
+                "confidence": 0.9999542474746704,
+                "label": "item_amount",
+                "model_confidence": 0.9999391859386935
+              },
+              {
+                "text": "SUBTOTAL",
+                "bbox": [
+                  0.08333333333333333,
+                  0.6672727272727272,
+                  0.24444444444444444,
+                  0.6909090909090909
+                ],
+                "confidence": 0.9987717121839523,
+                "label": "item_description",
+                "model_confidence": 0.9909718707491815
+              },
+              {
+                "text": "1.82",
+                "bbox": [
+                  0.8319444444444445,
+                  0.7090909090909091,
+                  0.9180555555555555,
+                  0.7336363636363636
+                ],
+                "confidence": 0.9999209046363831,
+                "label": "item_amount",
+                "model_confidence": 0.9900299333649225
+              },
+              {
+                "text": "TAX",
+                "bbox": [
+                  0.08194444444444444,
+                  0.7109090909090909,
+                  0.1527777777777778,
+                  0.7363636363636363
+                ],
+                "confidence": 0.998794674873352,
+                "label": "item_description",
+                "model_confidence": 0.998403960559653
+              },
+              {
+                "text": "24.57",
+                "bbox": [
+                  0.7930555555555555,
+                  0.7672727272727272,
+                  0.9152777777777777,
+                  0.7918181818181819
+                ],
+                "confidence": 0.9999396324157714,
+                "label": "item_amount",
+                "model_confidence": 0.9832626264016167
+              },
+              {
+                "text": "TOTAL",
+                "bbox": [
+                  0.08333333333333333,
+                  0.7709090909090909,
+                  0.20694444444444443,
+                  0.7954545454545454
+                ],
+                "confidence": 0.9981956005096435,
+                "label": "item_description",
+                "model_confidence": 0.8898864237367602
+              },
+              {
+                "text": "THANK YOU.KEEP CREATING.",
+                "bbox": [
+                  0.2902777777777778,
+                  0.8790909090909091,
+                  0.7069444444444445,
+                  0.8972727272727272
+                ],
+                "confidence": 0.9769620870550474,
+                "label": "other",
+                "model_confidence": 0.9869221558445099
+              }
+            ],
+            "warnings": [
+              "Total was not extracted; manual review is required.",
+              "Some line items need manual review.",
+              "A receipt total is required before approval.",
+              "Every line item needs an amount before approval."
+            ],
+            "model_version": "cord-line-v1",
+            "confidence": 0.4791159504133487,
+            "needs_review": true,
+            "extraction_mode": "learned_model"
+          }
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "dataset": "naver-clova-ix/cord-v2",
+    "split": "official test",
+    "test_documents": 100,
+    "model_version": "cord-line-v1",
+    "confidence_threshold": 0.3,
+    "test_used_for_parameter_selection": false,
+    "test_split_sha256": "20d30d223efaf4380089b1aa73e3aa100589ac9e0614dd5ff5c964f8ae521d44",
+    "label_support": {
+      "item_description": 287,
+      "other": 232,
+      "item_amount": 272,
+      "item_quantity": 237,
+      "discount": 7,
+      "tax": 45,
+      "subtotal": 66,
+      "total": 96,
+      "item_unit_price": 67
+    },
+    "baseline": {
+      "accuracy": 0.7219251336898396,
+      "macro_f1": 0.6239201414444898,
+      "target_macro_f1": 0.6320343827275355,
+      "weighted_f1": 0.7075840679522377,
+      "per_class": {
+        "other": {
+          "precision": 0.4368932038834951,
+          "recall": 0.7758620689655172,
+          "f1-score": 0.5590062111801242,
+          "support": 232.0
+        },
+        "item_description": {
+          "precision": 0.9879032258064516,
+          "recall": 0.8536585365853658,
+          "f1-score": 0.9158878504672897,
+          "support": 287.0
+        },
+        "item_quantity": {
+          "precision": 1.0,
+          "recall": 0.42616033755274263,
+          "f1-score": 0.5976331360946746,
+          "support": 237.0
+        },
+        "item_unit_price": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 67.0
+        },
+        "item_amount": {
+          "precision": 0.7945619335347432,
+          "recall": 0.9669117647058824,
+          "f1-score": 0.8723051409618574,
+          "support": 272.0
+        },
+        "subtotal": {
+          "precision": 0.9215686274509803,
+          "recall": 0.7121212121212122,
+          "f1-score": 0.8034188034188035,
+          "support": 66.0
+        },
+        "tax": {
+          "precision": 0.8333333333333334,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.5797101449275363,
+          "support": 45.0
+        },
+        "discount": {
+          "precision": 0.3684210526315789,
+          "recall": 1.0,
+          "f1-score": 0.5384615384615384,
+          "support": 7.0
+        },
+        "total": {
+          "precision": 0.6666666666666666,
+          "recall": 0.8541666666666666,
+          "f1-score": 0.7488584474885844,
+          "support": 96.0
+        },
+        "accuracy": 0.7219251336898396,
+        "macro avg": {
+          "precision": 0.6677053381452499,
+          "recall": 0.6703694478935368,
+          "f1-score": 0.6239201414444898,
+          "support": 1309.0
+        },
+        "weighted avg": {
+          "precision": 0.7661656010764388,
+          "recall": 0.7219251336898396,
+          "f1-score": 0.7075840679522377,
+          "support": 1309.0
+        }
+      },
+      "lines": 1309,
+      "documents": 100,
+      "input": "CORD annotated text and boxes; excludes OCR errors",
+      "fields": {
+        "subtotal": {
+          "present_documents": 65,
+          "correct_present": 47,
+          "present_value_accuracy": 0.7230769230769231,
+          "presence_and_value_accuracy": 0.81,
+          "evaluated_documents": 100,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "tax": {
+          "present_documents": 40,
+          "correct_present": 17,
+          "present_value_accuracy": 0.425,
+          "presence_and_value_accuracy": 0.7676767676767676,
+          "evaluated_documents": 99,
+          "ambiguous_truth_documents_excluded": 1
+        },
+        "discount": {
+          "present_documents": 7,
+          "correct_present": 7,
+          "present_value_accuracy": 1.0,
+          "presence_and_value_accuracy": 0.96,
+          "evaluated_documents": 100,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "total": {
+          "present_documents": 95,
+          "correct_present": 70,
+          "present_value_accuracy": 0.7368421052631579,
+          "presence_and_value_accuracy": 0.73,
+          "evaluated_documents": 100,
+          "ambiguous_truth_documents_excluded": 0
+        }
+      },
+      "latency_ms": {
+        "median": 0.09169999975711107,
+        "p95": 0.3407949945540166
+      },
+      "documents_requiring_review": 100
+    },
+    "learned": {
+      "accuracy": 0.961038961038961,
+      "macro_f1": 0.9385047014202564,
+      "target_macro_f1": 0.940262233542233,
+      "weighted_f1": 0.9610676847100196,
+      "per_class": {
+        "other": {
+          "precision": 0.9541284403669725,
+          "recall": 0.896551724137931,
+          "f1-score": 0.9244444444444444,
+          "support": 232.0
+        },
+        "item_description": {
+          "precision": 0.9757785467128027,
+          "recall": 0.9825783972125436,
+          "f1-score": 0.9791666666666666,
+          "support": 287.0
+        },
+        "item_quantity": {
+          "precision": 0.975,
+          "recall": 0.9873417721518988,
+          "f1-score": 0.9811320754716981,
+          "support": 237.0
+        },
+        "item_unit_price": {
+          "precision": 0.8533333333333334,
+          "recall": 0.9552238805970149,
+          "f1-score": 0.9014084507042254,
+          "support": 67.0
+        },
+        "item_amount": {
+          "precision": 0.9813432835820896,
+          "recall": 0.9669117647058824,
+          "f1-score": 0.9740740740740741,
+          "support": 272.0
+        },
+        "subtotal": {
+          "precision": 0.9411764705882353,
+          "recall": 0.9696969696969697,
+          "f1-score": 0.9552238805970149,
+          "support": 66.0
+        },
+        "tax": {
+          "precision": 0.9375,
+          "recall": 1.0,
+          "f1-score": 0.967741935483871,
+          "support": 45.0
+        },
+        "discount": {
+          "precision": 0.75,
+          "recall": 0.8571428571428571,
+          "f1-score": 0.8,
+          "support": 7.0
+        },
+        "total": {
+          "precision": 0.968421052631579,
+          "recall": 0.9583333333333334,
+          "f1-score": 0.9633507853403142,
+          "support": 96.0
+        },
+        "accuracy": 0.961038961038961,
+        "macro avg": {
+          "precision": 0.9262979030238903,
+          "recall": 0.9526422998864924,
+          "f1-score": 0.9385047014202564,
+          "support": 1309.0
+        },
+        "weighted avg": {
+          "precision": 0.9618819829265309,
+          "recall": 0.961038961038961,
+          "f1-score": 0.9610676847100196,
+          "support": 1309.0
+        }
+      },
+      "lines": 1309,
+      "documents": 100,
+      "input": "CORD annotated text and boxes; excludes OCR errors",
+      "fields": {
+        "subtotal": {
+          "present_documents": 65,
+          "correct_present": 63,
+          "present_value_accuracy": 0.9692307692307692,
+          "presence_and_value_accuracy": 0.97,
+          "evaluated_documents": 100,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "tax": {
+          "present_documents": 40,
+          "correct_present": 40,
+          "present_value_accuracy": 1.0,
+          "presence_and_value_accuracy": 1.0,
+          "evaluated_documents": 99,
+          "ambiguous_truth_documents_excluded": 1
+        },
+        "discount": {
+          "present_documents": 7,
+          "correct_present": 6,
+          "present_value_accuracy": 0.8571428571428571,
+          "presence_and_value_accuracy": 0.98,
+          "evaluated_documents": 100,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "total": {
+          "present_documents": 95,
+          "correct_present": 91,
+          "present_value_accuracy": 0.9578947368421052,
+          "presence_and_value_accuracy": 0.95,
+          "evaluated_documents": 100,
+          "ambiguous_truth_documents_excluded": 0
+        }
+      },
+      "latency_ms": {
+        "median": 1.545599996461533,
+        "p95": 2.8137900029832963
+      },
+      "documents_requiring_review": 50
+    },
+    "actual_ocr_pipeline": {
+      "documents": 20,
+      "sampling": "Seed 42 without replacement from official test split; count fixed before evaluation",
+      "input": "Actual CORD receipt pixels -> RapidOCR ONNX -> frozen line classifier -> deterministic extraction",
+      "fields": {
+        "subtotal": {
+          "present_documents": 12,
+          "correct_present": 0,
+          "present_value_accuracy": 0.0,
+          "presence_and_value_accuracy": 0.4,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "tax": {
+          "present_documents": 8,
+          "correct_present": 0,
+          "present_value_accuracy": 0.0,
+          "presence_and_value_accuracy": 0.6,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "discount": {
+          "present_documents": 2,
+          "correct_present": 0,
+          "present_value_accuracy": 0.0,
+          "presence_and_value_accuracy": 0.9,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "total": {
+          "present_documents": 18,
+          "correct_present": 1,
+          "present_value_accuracy": 0.05555555555555555,
+          "presence_and_value_accuracy": 0.15,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        }
+      },
+      "annotated_line_detection_recall_iou_025": 0.5813953488372093,
+      "annotated_line_exact_text_recall_iou_025": 0.313953488372093,
+      "annotation_matching_note": "Matches reference lines to highest-IoU OCR box; split/merged lines conservatively penalized. Unannotated text has no reference. This is not character error rate.",
+      "latency_ms": {
+        "median": 677.7296000000206,
+        "p95": 2024.088284994651
+      },
+      "documents_requiring_review": 20,
+      "failures": 0,
+      "documents_detail": [
+        {
+          "id": "test-0000",
+          "ocr_lines": 16,
+          "annotated_lines": 11,
+          "annotations_detected_iou_025": 10,
+          "annotations_exact_text_iou_025": 4
+        },
+        {
+          "id": "test-0004",
+          "ocr_lines": 23,
+          "annotated_lines": 14,
+          "annotations_detected_iou_025": 6,
+          "annotations_exact_text_iou_025": 5
+        },
+        {
+          "id": "test-0010",
+          "ocr_lines": 12,
+          "annotated_lines": 8,
+          "annotations_detected_iou_025": 3,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0012",
+          "ocr_lines": 13,
+          "annotated_lines": 16,
+          "annotations_detected_iou_025": 13,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0018",
+          "ocr_lines": 9,
+          "annotated_lines": 7,
+          "annotations_detected_iou_025": 4,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0022",
+          "ocr_lines": 10,
+          "annotated_lines": 9,
+          "annotations_detected_iou_025": 6,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0030",
+          "ocr_lines": 12,
+          "annotated_lines": 7,
+          "annotations_detected_iou_025": 3,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0031",
+          "ocr_lines": 14,
+          "annotated_lines": 11,
+          "annotations_detected_iou_025": 6,
+          "annotations_exact_text_iou_025": 4
+        },
+        {
+          "id": "test-0033",
+          "ocr_lines": 16,
+          "annotated_lines": 14,
+          "annotations_detected_iou_025": 9,
+          "annotations_exact_text_iou_025": 5
+        },
+        {
+          "id": "test-0039",
+          "ocr_lines": 0,
+          "annotated_lines": 24,
+          "annotations_detected_iou_025": 0,
+          "annotations_exact_text_iou_025": 0
+        },
+        {
+          "id": "test-0044",
+          "ocr_lines": 8,
+          "annotated_lines": 6,
+          "annotations_detected_iou_025": 3,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0045",
+          "ocr_lines": 14,
+          "annotated_lines": 15,
+          "annotations_detected_iou_025": 9,
+          "annotations_exact_text_iou_025": 8
+        },
+        {
+          "id": "test-0053",
+          "ocr_lines": 15,
+          "annotated_lines": 14,
+          "annotations_detected_iou_025": 8,
+          "annotations_exact_text_iou_025": 5
+        },
+        {
+          "id": "test-0070",
+          "ocr_lines": 36,
+          "annotated_lines": 43,
+          "annotations_detected_iou_025": 33,
+          "annotations_exact_text_iou_025": 20
+        },
+        {
+          "id": "test-0073",
+          "ocr_lines": 15,
+          "annotated_lines": 12,
+          "annotations_detected_iou_025": 7,
+          "annotations_exact_text_iou_025": 6
+        },
+        {
+          "id": "test-0076",
+          "ocr_lines": 13,
+          "annotated_lines": 12,
+          "annotations_detected_iou_025": 11,
+          "annotations_exact_text_iou_025": 7
+        },
+        {
+          "id": "test-0077",
+          "ocr_lines": 11,
+          "annotated_lines": 8,
+          "annotations_detected_iou_025": 5,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0080",
+          "ocr_lines": 10,
+          "annotated_lines": 9,
+          "annotations_detected_iou_025": 4,
+          "annotations_exact_text_iou_025": 2
+        },
+        {
+          "id": "test-0083",
+          "ocr_lines": 12,
+          "annotated_lines": 9,
+          "annotations_detected_iou_025": 2,
+          "annotations_exact_text_iou_025": 0
+        },
+        {
+          "id": "test-0090",
+          "ocr_lines": 14,
+          "annotated_lines": 9,
+          "annotations_detected_iou_025": 8,
+          "annotations_exact_text_iou_025": 1
+        }
+      ]
+    },
+    "limitations": [
+      "These are Indonesian receipt results, not invoice or Arabic accuracy.",
+      "Line label F1 and document financial extraction accuracy measure different tasks.",
+      "Actual OCR benchmark is a seeded subset, separate from all 100 annotated-text receipts.",
+      "Validation review threshold is not a correctness guarantee or permission to autoapprove expenses."
+    ],
+    "transformer": {
+      "model": "layoutlmv3-receiptlab-v1",
+      "base_model": "microsoft/layoutlmv3-base",
+      "base_revision": "cfbbbff0762e6aab37086fdd4739ad14fe7d5db4",
+      "license": "CC-BY-NC-SA-4.0",
+      "evaluation_mode": "CORD supplied text and bounding boxes plus receipt image",
+      "training_documents": 800,
+      "validation_documents": 100,
+      "test_documents": 100,
+      "label_count": 9,
+      "seed": 42,
+      "epochs": 3,
+      "selected_by": "validation macro F1",
+      "history": [
+        {
+          "epoch": 1,
+          "loss": 0.37372747069515755,
+          "validation_macro_f1": 0.9599259542979771
+        },
+        {
+          "epoch": 2,
+          "loss": 0.11185257923265453,
+          "validation_macro_f1": 0.9930785728257336
+        },
+        {
+          "epoch": 3,
+          "loss": 0.0784760135912802,
+          "validation_macro_f1": 0.9766025603883564
+        }
+      ],
+      "validation": {
+        "micro_f1": 0.9942575881870386,
+        "macro_f1": 0.9930785728257336,
+        "per_class": {
+          "discount": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "item_amount": {
+            "precision": 0.9956896551724138,
+            "recall": 0.9871794871794872,
+            "f1-score": 0.9914163090128756,
+            "support": 234.0
+          },
+          "item_description": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 271.0
+          },
+          "item_quantity": {
+            "precision": 0.9918032786885246,
+            "recall": 1.0,
+            "f1-score": 0.9958847736625515,
+            "support": 242.0
+          },
+          "item_unit_price": {
+            "precision": 0.9607843137254902,
+            "recall": 0.98,
+            "f1-score": 0.9702970297029703,
+            "support": 50.0
+          },
+          "other": {
+            "precision": 1.0,
+            "recall": 0.9852941176470589,
+            "f1-score": 0.9925925925925926,
+            "support": 204.0
+          },
+          "subtotal": {
+            "precision": 0.9852941176470589,
+            "recall": 1.0,
+            "f1-score": 0.9925925925925926,
+            "support": 67.0
+          },
+          "tax": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 47.0
+          },
+          "total": {
+            "precision": 0.98989898989899,
+            "recall": 1.0,
+            "f1-score": 0.9949238578680203,
+            "support": 98.0
+          },
+          "accuracy": 0.9942575881870386,
+          "macro avg": {
+            "precision": 0.9914967061258309,
+            "recall": 0.9947192894251717,
+            "f1-score": 0.9930785728257336,
+            "support": 1219.0
+          },
+          "weighted avg": {
+            "precision": 0.9943164850957311,
+            "recall": 0.9942575881870386,
+            "f1-score": 0.9942621113077585,
+            "support": 1219.0
+          }
+        },
+        "documents": 100,
+        "lines": 1219,
+        "latency_ms_p50": 60.14444999891566,
+        "latency_ms_p95": 130.7616549958766,
+        "unrepresented_lines": 0
+      },
+      "review_policy": {
+        "threshold": 0.52,
+        "validation_precision": 0.9950738916256158,
+        "validation_coverage": 0.9991796554552912
+      },
+      "test": {
+        "micro_f1": 0.9786096256684492,
+        "macro_f1": 0.9565513348353039,
+        "per_class": {
+          "discount": {
+            "precision": 1.0,
+            "recall": 0.7142857142857143,
+            "f1-score": 0.8333333333333334,
+            "support": 7.0
+          },
+          "item_amount": {
+            "precision": 0.9962962962962963,
+            "recall": 0.9889705882352942,
+            "f1-score": 0.992619926199262,
+            "support": 272.0
+          },
+          "item_description": {
+            "precision": 0.9695945945945946,
+            "recall": 1.0,
+            "f1-score": 0.9845626072041166,
+            "support": 287.0
+          },
+          "item_quantity": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 237.0
+          },
+          "item_unit_price": {
+            "precision": 0.9436619718309859,
+            "recall": 1.0,
+            "f1-score": 0.9710144927536232,
+            "support": 67.0
+          },
+          "other": {
+            "precision": 0.9820627802690582,
+            "recall": 0.9439655172413793,
+            "f1-score": 0.9626373626373627,
+            "support": 232.0
+          },
+          "subtotal": {
+            "precision": 0.88,
+            "recall": 1.0,
+            "f1-score": 0.9361702127659575,
+            "support": 66.0
+          },
+          "tax": {
+            "precision": 1.0,
+            "recall": 0.9555555555555556,
+            "f1-score": 0.9772727272727273,
+            "support": 45.0
+          },
+          "total": {
+            "precision": 0.9887640449438202,
+            "recall": 0.9166666666666666,
+            "f1-score": 0.9513513513513514,
+            "support": 96.0
+          },
+          "accuracy": 0.9786096256684492,
+          "macro avg": {
+            "precision": 0.9733755208816396,
+            "recall": 0.9466048935538455,
+            "f1-score": 0.9565513348353039,
+            "support": 1309.0
+          },
+          "weighted avg": {
+            "precision": 0.9796268194736024,
+            "recall": 0.9786096256684492,
+            "f1-score": 0.9785175685049889,
+            "support": 1309.0
+          }
+        },
+        "documents": 100,
+        "lines": 1309,
+        "latency_ms_p50": 60.33079999178881,
+        "latency_ms_p95": 144.3659150012536,
+        "unrepresented_lines": 0,
+        "accepted_line_precision": 0.9800918836140888,
+        "accepted_line_coverage": 0.9977081741787625
+      },
+      "duration_seconds": 425.7849348000018,
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "peak_gpu_memory_mb": 3288.27978515625,
+      "split_hashes": {
+        "train": "f552111cc4cafe200b09b48bd15f75b33f147fa6905baac540b83853cce39bfc",
+        "validation": "6498862b2204a0c04079882ef1dfd5dbf0bb3f87eaa39453f76f94ff7e0fc69d",
+        "test": "20d30d223efaf4380089b1aa73e3aa100589ac9e0614dd5ff5c964f8ae521d44"
+      },
+      "limitations": [
+        "Line-level classification, not full-document exact-match accuracy",
+        "Not an end-to-end OCR metric",
+        "Indonesian receipt benchmark, not arbitrary English or Arabic invoices"
+      ]
+    },
+    "assisted": {
+      "dataset": "naver-clova-ix/cord-v2",
+      "split": "test",
+      "documents": 20,
+      "seed": 42,
+      "model_version": "cord-line-v1",
+      "assist_source_sha256": "a083cd97804c0ecb53e28447bee5524275ae6c6ae31d1616a0a83513399e7806",
+      "input": "Actual pixels -> RapidOCR -> frozen learned classifier -> explicit text anchors",
+      "parameters_selected_on_test": false,
+      "development_note": "Assisted design followed raw benchmark failure analysis; geometric rules were fixed before separate validation and additional test evaluation. No test values were used to tune parameters.",
+      "raw_learned_fields": {
+        "subtotal": {
+          "present_documents": 12,
+          "correct_present": 0,
+          "present_value_accuracy": 0.0,
+          "presence_and_value_accuracy": 0.4,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "tax": {
+          "present_documents": 8,
+          "correct_present": 0,
+          "present_value_accuracy": 0.0,
+          "presence_and_value_accuracy": 0.6,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "discount": {
+          "present_documents": 2,
+          "correct_present": 0,
+          "present_value_accuracy": 0.0,
+          "presence_and_value_accuracy": 0.9,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "total": {
+          "present_documents": 18,
+          "correct_present": 1,
+          "present_value_accuracy": 0.05555555555555555,
+          "presence_and_value_accuracy": 0.15,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        }
+      },
+      "assisted_fields": {
+        "subtotal": {
+          "present_documents": 12,
+          "correct_present": 7,
+          "present_value_accuracy": 0.5833333333333334,
+          "presence_and_value_accuracy": 0.75,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "tax": {
+          "present_documents": 8,
+          "correct_present": 1,
+          "present_value_accuracy": 0.125,
+          "presence_and_value_accuracy": 0.65,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "discount": {
+          "present_documents": 2,
+          "correct_present": 0,
+          "present_value_accuracy": 0.0,
+          "presence_and_value_accuracy": 0.9,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        },
+        "total": {
+          "present_documents": 18,
+          "correct_present": 10,
+          "present_value_accuracy": 0.5555555555555556,
+          "presence_and_value_accuracy": 0.6,
+          "evaluated_documents": 20,
+          "ambiguous_truth_documents_excluded": 0
+        }
+      },
+      "documents_requiring_review": 20,
+      "latency_ms": {
+        "median": 596.8730499953381,
+        "p95": 1563.7139150087028
+      },
+      "detail": [
+        {
+          "id": "test-0000",
+          "anchor_fields": {
+            "subtotal": "60000.00",
+            "tax": "5455.00"
+          },
+          "filtered_items": 6
+        },
+        {
+          "id": "test-0004",
+          "anchor_fields": {
+            "total": "174600.00"
+          },
+          "filtered_items": 10
+        },
+        {
+          "id": "test-0010",
+          "anchor_fields": {
+            "subtotal": "17000.00",
+            "total": "17000.00"
+          },
+          "filtered_items": 4
+        },
+        {
+          "id": "test-0012",
+          "anchor_fields": {},
+          "filtered_items": 0
+        },
+        {
+          "id": "test-0018",
+          "anchor_fields": {},
+          "filtered_items": 4
+        },
+        {
+          "id": "test-0022",
+          "anchor_fields": {
+            "total": "40000.00"
+          },
+          "filtered_items": 3
+        },
+        {
+          "id": "test-0030",
+          "anchor_fields": {
+            "subtotal": "28636.00"
+          },
+          "filtered_items": 2
+        },
+        {
+          "id": "test-0031",
+          "anchor_fields": {
+            "total": "113886.00"
+          },
+          "filtered_items": 2
+        },
+        {
+          "id": "test-0033",
+          "anchor_fields": {
+            "total": "148127.00"
+          },
+          "filtered_items": 0
+        },
+        {
+          "id": "test-0039",
+          "anchor_fields": {},
+          "filtered_items": 0
+        },
+        {
+          "id": "test-0044",
+          "anchor_fields": {
+            "total": "30000.00"
+          },
+          "filtered_items": 2
+        },
+        {
+          "id": "test-0045",
+          "anchor_fields": {
+            "total": "88000.00"
+          },
+          "filtered_items": 4
+        },
+        {
+          "id": "test-0053",
+          "anchor_fields": {
+            "subtotal": "107000.00"
+          },
+          "filtered_items": 4
+        },
+        {
+          "id": "test-0070",
+          "anchor_fields": {
+            "subtotal": null,
+            "tax": null
+          },
+          "filtered_items": 8
+        },
+        {
+          "id": "test-0073",
+          "anchor_fields": {},
+          "filtered_items": 3
+        },
+        {
+          "id": "test-0076",
+          "anchor_fields": {},
+          "filtered_items": 6
+        },
+        {
+          "id": "test-0077",
+          "anchor_fields": {
+            "subtotal": "17000.00",
+            "total": "17000.00"
+          },
+          "filtered_items": 3
+        },
+        {
+          "id": "test-0080",
+          "anchor_fields": {},
+          "filtered_items": 4
+        },
+        {
+          "id": "test-0083",
+          "anchor_fields": {
+            "subtotal": "20909.00"
+          },
+          "filtered_items": 1
+        },
+        {
+          "id": "test-0090",
+          "anchor_fields": {
+            "subtotal": "26818.00",
+            "total": "29500.00"
+          },
+          "filtered_items": 3
+        }
+      ],
+      "limitations": [
+        "Text recovery is deterministic assistance, not trained model accuracy.",
+        "Anchor confidence is zero and every document requires human review.",
+        "This additional operational evaluation does not replace the original model benchmark."
+      ]
+    }
+  }
+}

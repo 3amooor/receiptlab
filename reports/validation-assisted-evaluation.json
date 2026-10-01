@@ -1,0 +1,229 @@
+{
+  "dataset": "naver-clova-ix/cord-v2",
+  "split": "validation",
+  "documents": 20,
+  "seed": 42,
+  "model_version": "cord-line-v1",
+  "assist_source_sha256": "a083cd97804c0ecb53e28447bee5524275ae6c6ae31d1616a0a83513399e7806",
+  "input": "Actual pixels -> RapidOCR -> frozen learned classifier -> explicit text anchors",
+  "parameters_selected_on_test": false,
+  "development_note": "Assisted design followed raw benchmark failure analysis; geometric rules were fixed before separate validation and additional test evaluation. No test values were used to tune parameters.",
+  "raw_learned_fields": {
+    "subtotal": {
+      "present_documents": 8,
+      "correct_present": 1,
+      "present_value_accuracy": 0.125,
+      "presence_and_value_accuracy": 0.65,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "tax": {
+      "present_documents": 7,
+      "correct_present": 0,
+      "present_value_accuracy": 0.0,
+      "presence_and_value_accuracy": 0.65,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "discount": {
+      "present_documents": 0,
+      "correct_present": 0,
+      "present_value_accuracy": null,
+      "presence_and_value_accuracy": 1.0,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "total": {
+      "present_documents": 20,
+      "correct_present": 1,
+      "present_value_accuracy": 0.05,
+      "presence_and_value_accuracy": 0.05,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    }
+  },
+  "assisted_fields": {
+    "subtotal": {
+      "present_documents": 8,
+      "correct_present": 8,
+      "present_value_accuracy": 1.0,
+      "presence_and_value_accuracy": 1.0,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "tax": {
+      "present_documents": 7,
+      "correct_present": 0,
+      "present_value_accuracy": 0.0,
+      "presence_and_value_accuracy": 0.65,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "discount": {
+      "present_documents": 0,
+      "correct_present": 0,
+      "present_value_accuracy": null,
+      "presence_and_value_accuracy": 1.0,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    },
+    "total": {
+      "present_documents": 20,
+      "correct_present": 10,
+      "present_value_accuracy": 0.5,
+      "presence_and_value_accuracy": 0.5,
+      "evaluated_documents": 20,
+      "ambiguous_truth_documents_excluded": 0
+    }
+  },
+  "documents_requiring_review": 20,
+  "latency_ms": {
+    "median": 646.8333000011626,
+    "p95": 1383.2991649913313
+  },
+  "detail": [
+    {
+      "id": "validation-0000",
+      "anchor_fields": {
+        "total": null
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0004",
+      "anchor_fields": {},
+      "filtered_items": 0
+    },
+    {
+      "id": "validation-0010",
+      "anchor_fields": {
+        "total": "60000.00"
+      },
+      "filtered_items": 1
+    },
+    {
+      "id": "validation-0012",
+      "anchor_fields": {
+        "total": "72000.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0018",
+      "anchor_fields": {
+        "total": "25000.00"
+      },
+      "filtered_items": 5
+    },
+    {
+      "id": "validation-0022",
+      "anchor_fields": {
+        "subtotal": "280000.00",
+        "total": "802.00"
+      },
+      "filtered_items": 3
+    },
+    {
+      "id": "validation-0030",
+      "anchor_fields": {
+        "total": null
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0031",
+      "anchor_fields": {
+        "total": "24000.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0033",
+      "anchor_fields": {
+        "total": "57500.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0039",
+      "anchor_fields": {
+        "subtotal": "89000.00",
+        "total": null
+      },
+      "filtered_items": 6
+    },
+    {
+      "id": "validation-0044",
+      "anchor_fields": {
+        "subtotal": "16363.00",
+        "total": "17999.00"
+      },
+      "filtered_items": 3
+    },
+    {
+      "id": "validation-0045",
+      "anchor_fields": {
+        "subtotal": "240000.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0053",
+      "anchor_fields": {},
+      "filtered_items": 3
+    },
+    {
+      "id": "validation-0070",
+      "anchor_fields": {
+        "subtotal": "103000.00",
+        "total": null
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0073",
+      "anchor_fields": {
+        "total": null
+      },
+      "filtered_items": 3
+    },
+    {
+      "id": "validation-0076",
+      "anchor_fields": {
+        "total": "99000.00"
+      },
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0077",
+      "anchor_fields": {
+        "subtotal": "58000.00",
+        "total": "58000.00"
+      },
+      "filtered_items": 5
+    },
+    {
+      "id": "validation-0080",
+      "anchor_fields": {},
+      "filtered_items": 2
+    },
+    {
+      "id": "validation-0083",
+      "anchor_fields": {
+        "subtotal": "17000.00",
+        "total": "17000.00"
+      },
+      "filtered_items": 0
+    },
+    {
+      "id": "validation-0090",
+      "anchor_fields": {},
+      "filtered_items": 3
+    }
+  ],
+  "limitations": [
+    "Text recovery is deterministic assistance, not trained model accuracy.",
+    "Anchor confidence is zero and every document requires human review.",
+    "This additional operational evaluation does not replace the original model benchmark."
+  ]
+}

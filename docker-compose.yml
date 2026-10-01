@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "127.0.0.1:8010:8010"
+    volumes:
+      - receiptlab-data:/app/data
+    restart: unless-stopped
+volumes:
+  receiptlab-data:
